@@ -1,0 +1,2220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'socket.io' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData socket.io
+8 silly fetchNamedPackageData socket.io
+9 silly mapToRegistry name socket.io
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'socket.io',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'socket.io',
+12 silly mapToRegistry   name: 'socket.io',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+14 verbose request uri https://registry.npmjs.org/socket.io
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:02:50 PM
+17 verbose request id 42bd2bf4c3a00a9a
+18 verbose etag W/"5925ab5c-25be5"
+19 verbose lastModified Wed, 24 May 2017 15:48:44 GMT
+20 http request GET https://registry.npmjs.org/socket.io
+21 http 304 https://registry.npmjs.org/socket.io
+22 verbose headers { date: 'Thu, 25 May 2017 09:02:54 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"5925ab5c-25be5"',
+22 verbose headers   age: '295',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '12',
+22 verbose headers   'x-timer': 'S1495702975.850807,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Thu, 25 May 2017 09:02:54 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"5925ab5c-25be5"',
+23 silly get     age: '295',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-hkg6820-HKG',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '12',
+23 silly get     'x-timer': 'S1495702975.850807,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/socket.io from cache
+25 verbose get saving socket.io to /home/server_web/.npm/registry.npmjs.org/socket.io/.cache.json
+26 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule socket.io@2.0.1 checking installable status
+40 silly cache add args [ 'socket.io', null ]
+41 verbose cache add spec socket.io
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'socket.io',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'socket.io',
+42 silly cache add   name: 'socket.io',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed socket.io@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for socket.io
+45 info addNameTag [ 'socket.io', 'latest' ]
+46 silly mapToRegistry name socket.io
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'socket.io',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'socket.io',
+49 silly mapToRegistry   name: 'socket.io',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+51 verbose addNameTag registry:https://registry.npmjs.org/socket.io not in flight; fetching
+52 verbose get https://registry.npmjs.org/socket.io not expired, no request
+53 silly addNameTag next cb for socket.io with tag latest
+54 silly addNamed socket.io@2.0.1
+55 verbose addNamed "2.0.1" is a plain semver version for socket.io
+56 silly cache afterAdd socket.io@2.0.1
+57 verbose afterAdd /home/server_web/.npm/socket.io/2.0.1/package/package.json not in flight; writing
+58 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /home/server_web/.npm/socket.io/2.0.1/package/package.json written
+60 silly fetchNamedPackageData debug
+61 silly mapToRegistry name debug
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'debug',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'debug',
+64 silly mapToRegistry   name: 'debug',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/debug
+66 silly fetchNamedPackageData engine.io
+67 silly mapToRegistry name engine.io
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'engine.io',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'engine.io',
+70 silly mapToRegistry   name: 'engine.io',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/engine.io
+72 silly fetchNamedPackageData object-assign
+73 silly mapToRegistry name object-assign
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'object-assign',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'object-assign',
+76 silly mapToRegistry   name: 'object-assign',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+78 silly fetchNamedPackageData socket.io-adapter
+79 silly mapToRegistry name socket.io-adapter
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'socket.io-adapter',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'socket.io-adapter',
+82 silly mapToRegistry   name: 'socket.io-adapter',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/socket.io-adapter
+84 silly fetchNamedPackageData socket.io-client
+85 silly mapToRegistry name socket.io-client
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'socket.io-client',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'socket.io-client',
+88 silly mapToRegistry   name: 'socket.io-client',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+90 silly fetchNamedPackageData socket.io-parser
+91 silly mapToRegistry name socket.io-parser
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry data Result {
+94 silly mapToRegistry   raw: 'socket.io-parser',
+94 silly mapToRegistry   scope: null,
+94 silly mapToRegistry   escapedName: 'socket.io-parser',
+94 silly mapToRegistry   name: 'socket.io-parser',
+94 silly mapToRegistry   rawSpec: '',
+94 silly mapToRegistry   spec: 'latest',
+94 silly mapToRegistry   type: 'tag' }
+95 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+96 verbose request uri https://registry.npmjs.org/debug
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 5:02:53 PM
+99 verbose etag W/"5923dd86-15e04"
+100 verbose lastModified Tue, 23 May 2017 06:58:14 GMT
+101 http request GET https://registry.npmjs.org/debug
+102 verbose request uri https://registry.npmjs.org/engine.io
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 5:02:53 PM
+105 verbose etag W/"59037589-24c2c"
+106 verbose lastModified Fri, 28 Apr 2017 17:02:01 GMT
+107 http request GET https://registry.npmjs.org/engine.io
+108 verbose request uri https://registry.npmjs.org/object-assign
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 5:02:53 PM
+111 verbose etag W/"5909471e-5d4a"
+112 verbose lastModified Wed, 03 May 2017 02:57:34 GMT
+113 http request GET https://registry.npmjs.org/object-assign
+114 verbose request uri https://registry.npmjs.org/socket.io-adapter
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 5:02:53 PM
+117 verbose etag W/"58dba910-200a"
+118 verbose lastModified Wed, 29 Mar 2017 12:31:12 GMT
+119 http request GET https://registry.npmjs.org/socket.io-adapter
+120 verbose request uri https://registry.npmjs.org/socket.io-client
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 5:02:53 PM
+123 verbose etag W/"5919d47a-20ed2"
+124 verbose lastModified Mon, 15 May 2017 16:16:58 GMT
+125 http request GET https://registry.npmjs.org/socket.io-client
+126 verbose request uri https://registry.npmjs.org/socket.io-parser
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 5:02:53 PM
+129 verbose etag W/"5913293f-770d"
+130 verbose lastModified Wed, 10 May 2017 14:52:47 GMT
+131 http request GET https://registry.npmjs.org/socket.io-parser
+132 http 304 https://registry.npmjs.org/object-assign
+133 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+133 verbose headers   via: '1.1 varnish',
+133 verbose headers   'cache-control': 'max-age=300',
+133 verbose headers   etag: 'W/"5909471e-5d4a"',
+133 verbose headers   age: '169',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+133 verbose headers   'x-cache': 'HIT',
+133 verbose headers   'x-cache-hits': '21',
+133 verbose headers   'x-timer': 'S1495702975.354049,VS0,VE0',
+133 verbose headers   vary: 'Accept-Encoding' }
+134 silly get cb [ 304,
+134 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+134 silly get     via: '1.1 varnish',
+134 silly get     'cache-control': 'max-age=300',
+134 silly get     etag: 'W/"5909471e-5d4a"',
+134 silly get     age: '169',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-served-by': 'cache-hkg6825-HKG',
+134 silly get     'x-cache': 'HIT',
+134 silly get     'x-cache-hits': '21',
+134 silly get     'x-timer': 'S1495702975.354049,VS0,VE0',
+134 silly get     vary: 'Accept-Encoding' } ]
+135 verbose etag https://registry.npmjs.org/object-assign from cache
+136 verbose get saving object-assign to /home/server_web/.npm/registry.npmjs.org/object-assign/.cache.json
+137 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+138 silly pickManifestFromRegistryMetadata spec >=4.1.1 <4.2.0 tag latest versions [ '0.1.0',
+138 silly pickManifestFromRegistryMetadata   '0.1.1',
+138 silly pickManifestFromRegistryMetadata   '0.1.2',
+138 silly pickManifestFromRegistryMetadata   '0.2.0',
+138 silly pickManifestFromRegistryMetadata   '0.2.1',
+138 silly pickManifestFromRegistryMetadata   '0.2.2',
+138 silly pickManifestFromRegistryMetadata   '0.3.0',
+138 silly pickManifestFromRegistryMetadata   '0.3.1',
+138 silly pickManifestFromRegistryMetadata   '0.4.0',
+138 silly pickManifestFromRegistryMetadata   '1.0.0',
+138 silly pickManifestFromRegistryMetadata   '2.0.0',
+138 silly pickManifestFromRegistryMetadata   '3.0.0',
+138 silly pickManifestFromRegistryMetadata   '2.1.1',
+138 silly pickManifestFromRegistryMetadata   '4.0.0',
+138 silly pickManifestFromRegistryMetadata   '4.0.1',
+138 silly pickManifestFromRegistryMetadata   '4.1.0',
+138 silly pickManifestFromRegistryMetadata   '4.1.1' ]
+139 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+140 silly cache add args [ 'object-assign@~4.1.1', null ]
+141 verbose cache add spec object-assign@~4.1.1
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'object-assign@~4.1.1',
+142 silly cache add   scope: null,
+142 silly cache add   escapedName: 'object-assign',
+142 silly cache add   name: 'object-assign',
+142 silly cache add   rawSpec: '~4.1.1',
+142 silly cache add   spec: '>=4.1.1 <4.2.0',
+142 silly cache add   type: 'range' }
+143 silly addNamed object-assign@>=4.1.1 <4.2.0
+144 verbose addNamed ">=4.1.1 <4.2.0" is a valid semver range for object-assign
+145 silly addNameRange { name: 'object-assign',
+145 silly addNameRange   range: '>=4.1.1 <4.2.0',
+145 silly addNameRange   hasData: false }
+146 silly mapToRegistry name object-assign
+147 silly mapToRegistry using default registry
+148 silly mapToRegistry registry https://registry.npmjs.org/
+149 silly mapToRegistry data Result {
+149 silly mapToRegistry   raw: 'object-assign',
+149 silly mapToRegistry   scope: null,
+149 silly mapToRegistry   escapedName: 'object-assign',
+149 silly mapToRegistry   name: 'object-assign',
+149 silly mapToRegistry   rawSpec: '',
+149 silly mapToRegistry   spec: 'latest',
+149 silly mapToRegistry   type: 'tag' }
+150 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+151 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+152 http 304 https://registry.npmjs.org/engine.io
+153 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   etag: 'W/"59037589-24c2c"',
+153 verbose headers   age: '198',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '5',
+153 verbose headers   'x-timer': 'S1495702975.354131,VS0,VE0',
+153 verbose headers   vary: 'Accept-Encoding' }
+154 silly get cb [ 304,
+154 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     etag: 'W/"59037589-24c2c"',
+154 silly get     age: '198',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-hkg6821-HKG',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '5',
+154 silly get     'x-timer': 'S1495702975.354131,VS0,VE0',
+154 silly get     vary: 'Accept-Encoding' } ]
+155 verbose etag https://registry.npmjs.org/engine.io from cache
+156 verbose get saving engine.io to /home/server_web/.npm/registry.npmjs.org/engine.io/.cache.json
+157 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+158 verbose get https://registry.npmjs.org/object-assign not expired, no request
+159 silly addNameRange number 2 { name: 'object-assign', range: '>=4.1.1 <4.2.0', hasData: true }
+160 silly addNameRange versions [ 'object-assign',
+160 silly addNameRange   [ '0.1.0',
+160 silly addNameRange     '0.1.1',
+160 silly addNameRange     '0.1.2',
+160 silly addNameRange     '0.2.0',
+160 silly addNameRange     '0.2.1',
+160 silly addNameRange     '0.2.2',
+160 silly addNameRange     '0.3.0',
+160 silly addNameRange     '0.3.1',
+160 silly addNameRange     '0.4.0',
+160 silly addNameRange     '1.0.0',
+160 silly addNameRange     '2.0.0',
+160 silly addNameRange     '3.0.0',
+160 silly addNameRange     '2.1.1',
+160 silly addNameRange     '4.0.0',
+160 silly addNameRange     '4.0.1',
+160 silly addNameRange     '4.1.0',
+160 silly addNameRange     '4.1.1' ] ]
+161 silly pickManifestFromRegistryMetadata spec >=4.1.1 <4.2.0 tag latest versions [ '0.1.0',
+161 silly pickManifestFromRegistryMetadata   '0.1.1',
+161 silly pickManifestFromRegistryMetadata   '0.1.2',
+161 silly pickManifestFromRegistryMetadata   '0.2.0',
+161 silly pickManifestFromRegistryMetadata   '0.2.1',
+161 silly pickManifestFromRegistryMetadata   '0.2.2',
+161 silly pickManifestFromRegistryMetadata   '0.3.0',
+161 silly pickManifestFromRegistryMetadata   '0.3.1',
+161 silly pickManifestFromRegistryMetadata   '0.4.0',
+161 silly pickManifestFromRegistryMetadata   '1.0.0',
+161 silly pickManifestFromRegistryMetadata   '2.0.0',
+161 silly pickManifestFromRegistryMetadata   '3.0.0',
+161 silly pickManifestFromRegistryMetadata   '2.1.1',
+161 silly pickManifestFromRegistryMetadata   '4.0.0',
+161 silly pickManifestFromRegistryMetadata   '4.0.1',
+161 silly pickManifestFromRegistryMetadata   '4.1.0',
+161 silly pickManifestFromRegistryMetadata   '4.1.1' ]
+162 silly addNamed object-assign@latest
+163 verbose addNamed "latest" is being treated as a dist-tag for object-assign
+164 info addNameTag [ 'object-assign', 'latest' ]
+165 silly mapToRegistry name object-assign
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry data Result {
+168 silly mapToRegistry   raw: 'object-assign',
+168 silly mapToRegistry   scope: null,
+168 silly mapToRegistry   escapedName: 'object-assign',
+168 silly mapToRegistry   name: 'object-assign',
+168 silly mapToRegistry   rawSpec: '',
+168 silly mapToRegistry   spec: 'latest',
+168 silly mapToRegistry   type: 'tag' }
+169 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+170 verbose addNameTag registry:https://registry.npmjs.org/object-assign already in flight; waiting
+171 silly addNameTag next cb for object-assign with tag latest
+172 silly addNamed object-assign@4.1.1
+173 verbose addNamed "4.1.1" is a plain semver version for object-assign
+174 silly cache afterAdd object-assign@4.1.1
+175 verbose afterAdd /home/server_web/.npm/object-assign/4.1.1/package/package.json not in flight; writing
+176 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+177 silly pickManifestFromRegistryMetadata spec >=3.1.0 <3.2.0 tag latest versions [ '0.1.0',
+177 silly pickManifestFromRegistryMetadata   '0.1.1',
+177 silly pickManifestFromRegistryMetadata   '0.1.2',
+177 silly pickManifestFromRegistryMetadata   '0.2.0',
+177 silly pickManifestFromRegistryMetadata   '0.2.1',
+177 silly pickManifestFromRegistryMetadata   '0.2.2',
+177 silly pickManifestFromRegistryMetadata   '0.3.0',
+177 silly pickManifestFromRegistryMetadata   '0.3.1',
+177 silly pickManifestFromRegistryMetadata   '0.3.2',
+177 silly pickManifestFromRegistryMetadata   '0.3.3',
+177 silly pickManifestFromRegistryMetadata   '0.3.4',
+177 silly pickManifestFromRegistryMetadata   '0.3.5',
+177 silly pickManifestFromRegistryMetadata   '0.3.7',
+177 silly pickManifestFromRegistryMetadata   '0.3.8',
+177 silly pickManifestFromRegistryMetadata   '0.3.9',
+177 silly pickManifestFromRegistryMetadata   '0.3.10',
+177 silly pickManifestFromRegistryMetadata   '0.4.1',
+177 silly pickManifestFromRegistryMetadata   '0.4.2',
+177 silly pickManifestFromRegistryMetadata   '0.4.3',
+177 silly pickManifestFromRegistryMetadata   '0.5.0',
+177 silly pickManifestFromRegistryMetadata   '0.6.0',
+177 silly pickManifestFromRegistryMetadata   '0.6.1',
+177 silly pickManifestFromRegistryMetadata   '0.6.2',
+177 silly pickManifestFromRegistryMetadata   '0.6.3',
+177 silly pickManifestFromRegistryMetadata   '0.7.0',
+177 silly pickManifestFromRegistryMetadata   '0.7.1',
+177 silly pickManifestFromRegistryMetadata   '0.7.2',
+177 silly pickManifestFromRegistryMetadata   '0.7.3',
+177 silly pickManifestFromRegistryMetadata   '0.7.4',
+177 silly pickManifestFromRegistryMetadata   '0.7.5',
+177 silly pickManifestFromRegistryMetadata   '0.7.6',
+177 silly pickManifestFromRegistryMetadata   '0.7.7',
+177 silly pickManifestFromRegistryMetadata   '0.7.8',
+177 silly pickManifestFromRegistryMetadata   '0.7.9',
+177 silly pickManifestFromRegistryMetadata   '0.7.10',
+177 silly pickManifestFromRegistryMetadata   '0.7.11',
+177 silly pickManifestFromRegistryMetadata   '0.7.12',
+177 silly pickManifestFromRegistryMetadata   '0.7.13',
+177 silly pickManifestFromRegistryMetadata   '0.7.14',
+177 silly pickManifestFromRegistryMetadata   '0.8.0',
+177 silly pickManifestFromRegistryMetadata   '0.8.1',
+177 silly pickManifestFromRegistryMetadata   '0.8.2',
+177 silly pickManifestFromRegistryMetadata   '0.9.0',
+177 silly pickManifestFromRegistryMetadata   '1.0.0',
+177 silly pickManifestFromRegistryMetadata   '1.0.1',
+177 silly pickManifestFromRegistryMetadata   '1.0.2',
+177 silly pickManifestFromRegistryMetadata   '1.0.3',
+177 silly pickManifestFromRegistryMetadata   '1.0.4',
+177 silly pickManifestFromRegistryMetadata   '1.0.5',
+177 silly pickManifestFromRegistryMetadata   '1.1.0',
+177 silly pickManifestFromRegistryMetadata   '1.1.1',
+177 silly pickManifestFromRegistryMetadata   '1.2.0',
+177 silly pickManifestFromRegistryMetadata   '1.2.1',
+177 silly pickManifestFromRegistryMetadata   '1.2.2',
+177 silly pickManifestFromRegistryMetadata   '1.3.0',
+177 silly pickManifestFromRegistryMetadata   '1.3.1',
+177 silly pickManifestFromRegistryMetadata   '1.4.0',
+177 silly pickManifestFromRegistryMetadata   '1.4.1',
+177 silly pickManifestFromRegistryMetadata   '1.4.2',
+177 silly pickManifestFromRegistryMetadata   '1.4.3',
+177 silly pickManifestFromRegistryMetadata   '1.5.0',
+177 silly pickManifestFromRegistryMetadata   '1.5.1',
+177 silly pickManifestFromRegistryMetadata   '1.5.2',
+177 silly pickManifestFromRegistryMetadata   '1.5.3',
+177 silly pickManifestFromRegistryMetadata   '1.5.4',
+177 silly pickManifestFromRegistryMetadata   '1.6.0',
+177 silly pickManifestFromRegistryMetadata   '1.6.1',
+177 silly pickManifestFromRegistryMetadata   '1.6.2',
+177 silly pickManifestFromRegistryMetadata   '1.6.3',
+177 silly pickManifestFromRegistryMetadata   '1.6.4',
+177 silly pickManifestFromRegistryMetadata   '1.6.5',
+177 silly pickManifestFromRegistryMetadata   '1.6.6',
+177 silly pickManifestFromRegistryMetadata   '1.6.7',
+177 silly pickManifestFromRegistryMetadata   '1.6.8',
+177 silly pickManifestFromRegistryMetadata   '1.6.9',
+177 silly pickManifestFromRegistryMetadata   '1.6.10',
+177 silly pickManifestFromRegistryMetadata   '1.6.11',
+177 silly pickManifestFromRegistryMetadata   '1.7.0',
+177 silly pickManifestFromRegistryMetadata   '1.7.1',
+177 silly pickManifestFromRegistryMetadata   '1.7.2',
+177 silly pickManifestFromRegistryMetadata   '1.8.0',
+177 silly pickManifestFromRegistryMetadata   '1.8.1',
+177 silly pickManifestFromRegistryMetadata   '1.8.2',
+177 silly pickManifestFromRegistryMetadata   '2.0.0',
+177 silly pickManifestFromRegistryMetadata   '2.0.1',
+177 silly pickManifestFromRegistryMetadata   '2.0.2',
+177 silly pickManifestFromRegistryMetadata   '1.8.3',
+177 silly pickManifestFromRegistryMetadata   '2.1.0',
+177 silly pickManifestFromRegistryMetadata   '2.1.1',
+177 silly pickManifestFromRegistryMetadata   '3.0.0',
+177 silly pickManifestFromRegistryMetadata   '3.1.0',
+177 silly pickManifestFromRegistryMetadata   '1.8.4' ]
+178 silly resolveWithNewModule engine.io@3.1.0 checking installable status
+179 silly cache add args [ 'engine.io@~3.1.0', null ]
+180 verbose cache add spec engine.io@~3.1.0
+181 silly cache add parsed spec Result {
+181 silly cache add   raw: 'engine.io@~3.1.0',
+181 silly cache add   scope: null,
+181 silly cache add   escapedName: 'engine.io',
+181 silly cache add   name: 'engine.io',
+181 silly cache add   rawSpec: '~3.1.0',
+181 silly cache add   spec: '>=3.1.0 <3.2.0',
+181 silly cache add   type: 'range' }
+182 silly addNamed engine.io@>=3.1.0 <3.2.0
+183 verbose addNamed ">=3.1.0 <3.2.0" is a valid semver range for engine.io
+184 silly addNameRange { name: 'engine.io', range: '>=3.1.0 <3.2.0', hasData: false }
+185 silly mapToRegistry name engine.io
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'engine.io',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   escapedName: 'engine.io',
+188 silly mapToRegistry   name: 'engine.io',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri https://registry.npmjs.org/engine.io
+190 verbose addNameRange registry:https://registry.npmjs.org/engine.io not in flight; fetching
+191 verbose get https://registry.npmjs.org/engine.io not expired, no request
+192 silly addNameRange number 2 { name: 'engine.io', range: '>=3.1.0 <3.2.0', hasData: true }
+193 silly addNameRange versions [ 'engine.io',
+193 silly addNameRange   [ '0.1.0',
+193 silly addNameRange     '0.1.1',
+193 silly addNameRange     '0.1.2',
+193 silly addNameRange     '0.2.0',
+193 silly addNameRange     '0.2.1',
+193 silly addNameRange     '0.2.2',
+193 silly addNameRange     '0.3.0',
+193 silly addNameRange     '0.3.1',
+193 silly addNameRange     '0.3.2',
+193 silly addNameRange     '0.3.3',
+193 silly addNameRange     '0.3.4',
+193 silly addNameRange     '0.3.5',
+193 silly addNameRange     '0.3.7',
+193 silly addNameRange     '0.3.8',
+193 silly addNameRange     '0.3.9',
+193 silly addNameRange     '0.3.10',
+193 silly addNameRange     '0.4.1',
+193 silly addNameRange     '0.4.2',
+193 silly addNameRange     '0.4.3',
+193 silly addNameRange     '0.5.0',
+193 silly addNameRange     '0.6.0',
+193 silly addNameRange     '0.6.1',
+193 silly addNameRange     '0.6.2',
+193 silly addNameRange     '0.6.3',
+193 silly addNameRange     '0.7.0',
+193 silly addNameRange     '0.7.1',
+193 silly addNameRange     '0.7.2',
+193 silly addNameRange     '0.7.3',
+193 silly addNameRange     '0.7.4',
+193 silly addNameRange     '0.7.5',
+193 silly addNameRange     '0.7.6',
+193 silly addNameRange     '0.7.7',
+193 silly addNameRange     '0.7.8',
+193 silly addNameRange     '0.7.9',
+193 silly addNameRange     '0.7.10',
+193 silly addNameRange     '0.7.11',
+193 silly addNameRange     '0.7.12',
+193 silly addNameRange     '0.7.13',
+193 silly addNameRange     '0.7.14',
+193 silly addNameRange     '0.8.0',
+193 silly addNameRange     '0.8.1',
+193 silly addNameRange     '0.8.2',
+193 silly addNameRange     '0.9.0',
+193 silly addNameRange     '1.0.0',
+193 silly addNameRange     '1.0.1',
+193 silly addNameRange     '1.0.2',
+193 silly addNameRange     '1.0.3',
+193 silly addNameRange     '1.0.4',
+193 silly addNameRange     '1.0.5',
+193 silly addNameRange     '1.1.0',
+193 silly addNameRange     '1.1.1',
+193 silly addNameRange     '1.2.0',
+193 silly addNameRange     '1.2.1',
+193 silly addNameRange     '1.2.2',
+193 silly addNameRange     '1.3.0',
+193 silly addNameRange     '1.3.1',
+193 silly addNameRange     '1.4.0',
+193 silly addNameRange     '1.4.1',
+193 silly addNameRange     '1.4.2',
+193 silly addNameRange     '1.4.3',
+193 silly addNameRange     '1.5.0',
+193 silly addNameRange     '1.5.1',
+193 silly addNameRange     '1.5.2',
+193 silly addNameRange     '1.5.3',
+193 silly addNameRange     '1.5.4',
+193 silly addNameRange     '1.6.0',
+193 silly addNameRange     '1.6.1',
+193 silly addNameRange     '1.6.2',
+193 silly addNameRange     '1.6.3',
+193 silly addNameRange     '1.6.4',
+193 silly addNameRange     '1.6.5',
+193 silly addNameRange     '1.6.6',
+193 silly addNameRange     '1.6.7',
+193 silly addNameRange     '1.6.8',
+193 silly addNameRange     '1.6.9',
+193 silly addNameRange     '1.6.10',
+193 silly addNameRange     '1.6.11',
+193 silly addNameRange     '1.7.0',
+193 silly addNameRange     '1.7.1',
+193 silly addNameRange     '1.7.2',
+193 silly addNameRange     '1.8.0',
+193 silly addNameRange     '1.8.1',
+193 silly addNameRange     '1.8.2',
+193 silly addNameRange     '2.0.0',
+193 silly addNameRange     '2.0.1',
+193 silly addNameRange     '2.0.2',
+193 silly addNameRange     '1.8.3',
+193 silly addNameRange     '2.1.0',
+193 silly addNameRange     '2.1.1',
+193 silly addNameRange     '3.0.0',
+193 silly addNameRange     '3.1.0',
+193 silly addNameRange     '1.8.4' ] ]
+194 silly pickManifestFromRegistryMetadata spec >=3.1.0 <3.2.0 tag latest versions [ '0.1.0',
+194 silly pickManifestFromRegistryMetadata   '0.1.1',
+194 silly pickManifestFromRegistryMetadata   '0.1.2',
+194 silly pickManifestFromRegistryMetadata   '0.2.0',
+194 silly pickManifestFromRegistryMetadata   '0.2.1',
+194 silly pickManifestFromRegistryMetadata   '0.2.2',
+194 silly pickManifestFromRegistryMetadata   '0.3.0',
+194 silly pickManifestFromRegistryMetadata   '0.3.1',
+194 silly pickManifestFromRegistryMetadata   '0.3.2',
+194 silly pickManifestFromRegistryMetadata   '0.3.3',
+194 silly pickManifestFromRegistryMetadata   '0.3.4',
+194 silly pickManifestFromRegistryMetadata   '0.3.5',
+194 silly pickManifestFromRegistryMetadata   '0.3.7',
+194 silly pickManifestFromRegistryMetadata   '0.3.8',
+194 silly pickManifestFromRegistryMetadata   '0.3.9',
+194 silly pickManifestFromRegistryMetadata   '0.3.10',
+194 silly pickManifestFromRegistryMetadata   '0.4.1',
+194 silly pickManifestFromRegistryMetadata   '0.4.2',
+194 silly pickManifestFromRegistryMetadata   '0.4.3',
+194 silly pickManifestFromRegistryMetadata   '0.5.0',
+194 silly pickManifestFromRegistryMetadata   '0.6.0',
+194 silly pickManifestFromRegistryMetadata   '0.6.1',
+194 silly pickManifestFromRegistryMetadata   '0.6.2',
+194 silly pickManifestFromRegistryMetadata   '0.6.3',
+194 silly pickManifestFromRegistryMetadata   '0.7.0',
+194 silly pickManifestFromRegistryMetadata   '0.7.1',
+194 silly pickManifestFromRegistryMetadata   '0.7.2',
+194 silly pickManifestFromRegistryMetadata   '0.7.3',
+194 silly pickManifestFromRegistryMetadata   '0.7.4',
+194 silly pickManifestFromRegistryMetadata   '0.7.5',
+194 silly pickManifestFromRegistryMetadata   '0.7.6',
+194 silly pickManifestFromRegistryMetadata   '0.7.7',
+194 silly pickManifestFromRegistryMetadata   '0.7.8',
+194 silly pickManifestFromRegistryMetadata   '0.7.9',
+194 silly pickManifestFromRegistryMetadata   '0.7.10',
+194 silly pickManifestFromRegistryMetadata   '0.7.11',
+194 silly pickManifestFromRegistryMetadata   '0.7.12',
+194 silly pickManifestFromRegistryMetadata   '0.7.13',
+194 silly pickManifestFromRegistryMetadata   '0.7.14',
+194 silly pickManifestFromRegistryMetadata   '0.8.0',
+194 silly pickManifestFromRegistryMetadata   '0.8.1',
+194 silly pickManifestFromRegistryMetadata   '0.8.2',
+194 silly pickManifestFromRegistryMetadata   '0.9.0',
+194 silly pickManifestFromRegistryMetadata   '1.0.0',
+194 silly pickManifestFromRegistryMetadata   '1.0.1',
+194 silly pickManifestFromRegistryMetadata   '1.0.2',
+194 silly pickManifestFromRegistryMetadata   '1.0.3',
+194 silly pickManifestFromRegistryMetadata   '1.0.4',
+194 silly pickManifestFromRegistryMetadata   '1.0.5',
+194 silly pickManifestFromRegistryMetadata   '1.1.0',
+194 silly pickManifestFromRegistryMetadata   '1.1.1',
+194 silly pickManifestFromRegistryMetadata   '1.2.0',
+194 silly pickManifestFromRegistryMetadata   '1.2.1',
+194 silly pickManifestFromRegistryMetadata   '1.2.2',
+194 silly pickManifestFromRegistryMetadata   '1.3.0',
+194 silly pickManifestFromRegistryMetadata   '1.3.1',
+194 silly pickManifestFromRegistryMetadata   '1.4.0',
+194 silly pickManifestFromRegistryMetadata   '1.4.1',
+194 silly pickManifestFromRegistryMetadata   '1.4.2',
+194 silly pickManifestFromRegistryMetadata   '1.4.3',
+194 silly pickManifestFromRegistryMetadata   '1.5.0',
+194 silly pickManifestFromRegistryMetadata   '1.5.1',
+194 silly pickManifestFromRegistryMetadata   '1.5.2',
+194 silly pickManifestFromRegistryMetadata   '1.5.3',
+194 silly pickManifestFromRegistryMetadata   '1.5.4',
+194 silly pickManifestFromRegistryMetadata   '1.6.0',
+194 silly pickManifestFromRegistryMetadata   '1.6.1',
+194 silly pickManifestFromRegistryMetadata   '1.6.2',
+194 silly pickManifestFromRegistryMetadata   '1.6.3',
+194 silly pickManifestFromRegistryMetadata   '1.6.4',
+194 silly pickManifestFromRegistryMetadata   '1.6.5',
+194 silly pickManifestFromRegistryMetadata   '1.6.6',
+194 silly pickManifestFromRegistryMetadata   '1.6.7',
+194 silly pickManifestFromRegistryMetadata   '1.6.8',
+194 silly pickManifestFromRegistryMetadata   '1.6.9',
+194 silly pickManifestFromRegistryMetadata   '1.6.10',
+194 silly pickManifestFromRegistryMetadata   '1.6.11',
+194 silly pickManifestFromRegistryMetadata   '1.7.0',
+194 silly pickManifestFromRegistryMetadata   '1.7.1',
+194 silly pickManifestFromRegistryMetadata   '1.7.2',
+194 silly pickManifestFromRegistryMetadata   '1.8.0',
+194 silly pickManifestFromRegistryMetadata   '1.8.1',
+194 silly pickManifestFromRegistryMetadata   '1.8.2',
+194 silly pickManifestFromRegistryMetadata   '2.0.0',
+194 silly pickManifestFromRegistryMetadata   '2.0.1',
+194 silly pickManifestFromRegistryMetadata   '2.0.2',
+194 silly pickManifestFromRegistryMetadata   '1.8.3',
+194 silly pickManifestFromRegistryMetadata   '2.1.0',
+194 silly pickManifestFromRegistryMetadata   '2.1.1',
+194 silly pickManifestFromRegistryMetadata   '3.0.0',
+194 silly pickManifestFromRegistryMetadata   '3.1.0',
+194 silly pickManifestFromRegistryMetadata   '1.8.4' ]
+195 silly addNamed engine.io@latest
+196 verbose addNamed "latest" is being treated as a dist-tag for engine.io
+197 info addNameTag [ 'engine.io', 'latest' ]
+198 silly mapToRegistry name engine.io
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry data Result {
+201 silly mapToRegistry   raw: 'engine.io',
+201 silly mapToRegistry   scope: null,
+201 silly mapToRegistry   escapedName: 'engine.io',
+201 silly mapToRegistry   name: 'engine.io',
+201 silly mapToRegistry   rawSpec: '',
+201 silly mapToRegistry   spec: 'latest',
+201 silly mapToRegistry   type: 'tag' }
+202 silly mapToRegistry uri https://registry.npmjs.org/engine.io
+203 verbose addNameTag registry:https://registry.npmjs.org/engine.io already in flight; waiting
+204 silly addNameTag next cb for engine.io with tag latest
+205 silly addNamed engine.io@3.1.0
+206 verbose addNamed "3.1.0" is a plain semver version for engine.io
+207 verbose afterAdd /home/server_web/.npm/object-assign/4.1.1/package/package.json written
+208 silly cache afterAdd engine.io@3.1.0
+209 verbose afterAdd /home/server_web/.npm/engine.io/3.1.0/package/package.json not in flight; writing
+210 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+211 verbose afterAdd /home/server_web/.npm/engine.io/3.1.0/package/package.json written
+212 http 304 https://registry.npmjs.org/socket.io-client
+213 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   etag: 'W/"5919d47a-20ed2"',
+213 verbose headers   age: '164',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+213 verbose headers   'x-cache': 'HIT',
+213 verbose headers   'x-cache-hits': '5',
+213 verbose headers   'x-timer': 'S1495702976.504507,VS0,VE0',
+213 verbose headers   vary: 'Accept-Encoding' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     etag: 'W/"5919d47a-20ed2"',
+214 silly get     age: '164',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-hkg6820-HKG',
+214 silly get     'x-cache': 'HIT',
+214 silly get     'x-cache-hits': '5',
+214 silly get     'x-timer': 'S1495702976.504507,VS0,VE0',
+214 silly get     vary: 'Accept-Encoding' } ]
+215 verbose etag https://registry.npmjs.org/socket.io-client from cache
+216 verbose get saving socket.io-client to /home/server_web/.npm/registry.npmjs.org/socket.io-client/.cache.json
+217 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+218 silly pickManifestFromRegistryMetadata spec 2.0.1 tag latest versions [ '0.7.0',
+218 silly pickManifestFromRegistryMetadata   '0.7.1',
+218 silly pickManifestFromRegistryMetadata   '0.7.2',
+218 silly pickManifestFromRegistryMetadata   '0.7.3',
+218 silly pickManifestFromRegistryMetadata   '0.7.4',
+218 silly pickManifestFromRegistryMetadata   '0.7.5',
+218 silly pickManifestFromRegistryMetadata   '0.7.9',
+218 silly pickManifestFromRegistryMetadata   '0.7.10',
+218 silly pickManifestFromRegistryMetadata   '0.7.11',
+218 silly pickManifestFromRegistryMetadata   '0.8.0',
+218 silly pickManifestFromRegistryMetadata   '0.8.1',
+218 silly pickManifestFromRegistryMetadata   '0.8.2',
+218 silly pickManifestFromRegistryMetadata   '0.8.3',
+218 silly pickManifestFromRegistryMetadata   '0.8.4',
+218 silly pickManifestFromRegistryMetadata   '0.8.5',
+218 silly pickManifestFromRegistryMetadata   '0.8.6',
+218 silly pickManifestFromRegistryMetadata   '0.8.7',
+218 silly pickManifestFromRegistryMetadata   '0.9.0',
+218 silly pickManifestFromRegistryMetadata   '0.9.1',
+218 silly pickManifestFromRegistryMetadata   '0.9.1-1',
+218 silly pickManifestFromRegistryMetadata   '0.9.2',
+218 silly pickManifestFromRegistryMetadata   '0.9.3',
+218 silly pickManifestFromRegistryMetadata   '0.9.4',
+218 silly pickManifestFromRegistryMetadata   '0.9.5',
+218 silly pickManifestFromRegistryMetadata   '0.9.6',
+218 silly pickManifestFromRegistryMetadata   '0.9.7',
+218 silly pickManifestFromRegistryMetadata   '0.9.8',
+218 silly pickManifestFromRegistryMetadata   '0.9.9',
+218 silly pickManifestFromRegistryMetadata   '0.9.10',
+218 silly pickManifestFromRegistryMetadata   '0.9.11',
+218 silly pickManifestFromRegistryMetadata   '0.9.15',
+218 silly pickManifestFromRegistryMetadata   '0.9.16',
+218 silly pickManifestFromRegistryMetadata   '1.0.0-pre',
+218 silly pickManifestFromRegistryMetadata   '1.0.0-pre2',
+218 silly pickManifestFromRegistryMetadata   '1.0.0-pre3',
+218 silly pickManifestFromRegistryMetadata   '1.0.0-pre4',
+218 silly pickManifestFromRegistryMetadata   '1.0.0-pre5',
+218 silly pickManifestFromRegistryMetadata   '0.9.17',
+218 silly pickManifestFromRegistryMetadata   '1.0.1',
+218 silly pickManifestFromRegistryMetadata   '1.0.2',
+218 silly pickManifestFromRegistryMetadata   '1.0.3',
+218 silly pickManifestFromRegistryMetadata   '1.0.4',
+218 silly pickManifestFromRegistryMetadata   '1.0.5',
+218 silly pickManifestFromRegistryMetadata   '1.0.6',
+218 silly pickManifestFromRegistryMetadata   '1.1.0',
+218 silly pickManifestFromRegistryMetadata   '1.2.0',
+218 silly pickManifestFromRegistryMetadata   '1.2.1',
+218 silly pickManifestFromRegistryMetadata   '1.3.0',
+218 silly pickManifestFromRegistryMetadata   '1.3.1',
+218 silly pickManifestFromRegistryMetadata   '1.3.2',
+218 silly pickManifestFromRegistryMetadata   '1.3.3',
+218 silly pickManifestFromRegistryMetadata   '1.3.4',
+218 silly pickManifestFromRegistryMetadata   '1.3.5',
+218 silly pickManifestFromRegistryMetadata   '1.3.6',
+218 silly pickManifestFromRegistryMetadata   '1.3.7',
+218 silly pickManifestFromRegistryMetadata   '1.4.0',
+218 silly pickManifestFromRegistryMetadata   '1.4.1',
+218 silly pickManifestFromRegistryMetadata   '1.4.2',
+218 silly pickManifestFromRegistryMetadata   '1.4.3',
+218 silly pickManifestFromRegistryMetadata   '1.4.4',
+218 silly pickManifestFromRegistryMetadata   '1.4.5',
+218 silly pickManifestFromRegistryMetadata   '1.4.6',
+218 silly pickManifestFromRegistryMetadata   '1.4.7',
+218 silly pickManifestFromRegistryMetadata   '1.4.8',
+218 silly pickManifestFromRegistryMetadata   '1.5.0',
+218 silly pickManifestFromRegistryMetadata   '1.5.1',
+218 silly pickManifestFromRegistryMetadata   '1.6.0',
+218 silly pickManifestFromRegistryMetadata   '1.7.0',
+218 silly pickManifestFromRegistryMetadata   '1.7.1',
+218 silly pickManifestFromRegistryMetadata   '1.7.2',
+218 silly pickManifestFromRegistryMetadata   '1.7.3',
+218 silly pickManifestFromRegistryMetadata   '1.7.4',
+218 silly pickManifestFromRegistryMetadata   '2.0.0',
+218 silly pickManifestFromRegistryMetadata   '2.0.1' ]
+219 silly resolveWithNewModule socket.io-client@2.0.1 checking installable status
+220 silly cache add args [ 'socket.io-client@2.0.1', null ]
+221 verbose cache add spec socket.io-client@2.0.1
+222 silly cache add parsed spec Result {
+222 silly cache add   raw: 'socket.io-client@2.0.1',
+222 silly cache add   scope: null,
+222 silly cache add   escapedName: 'socket.io-client',
+222 silly cache add   name: 'socket.io-client',
+222 silly cache add   rawSpec: '2.0.1',
+222 silly cache add   spec: '2.0.1',
+222 silly cache add   type: 'version' }
+223 silly addNamed socket.io-client@2.0.1
+224 verbose addNamed "2.0.1" is a plain semver version for socket.io-client
+225 silly mapToRegistry name socket.io-client
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'socket.io-client',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   escapedName: 'socket.io-client',
+228 silly mapToRegistry   name: 'socket.io-client',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+230 verbose addNameVersion registry:https://registry.npmjs.org/socket.io-client not in flight; fetching
+231 verbose get https://registry.npmjs.org/socket.io-client not expired, no request
+232 silly cache afterAdd socket.io-client@2.0.1
+233 verbose afterAdd /home/server_web/.npm/socket.io-client/2.0.1/package/package.json not in flight; writing
+234 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+235 verbose afterAdd /home/server_web/.npm/socket.io-client/2.0.1/package/package.json written
+236 http 304 https://registry.npmjs.org/debug
+237 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+237 verbose headers   via: '1.1 varnish',
+237 verbose headers   'cache-control': 'max-age=300',
+237 verbose headers   etag: 'W/"5923dd86-15e04"',
+237 verbose headers   age: '0',
+237 verbose headers   connection: 'keep-alive',
+237 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+237 verbose headers   'x-cache': 'HIT',
+237 verbose headers   'x-cache-hits': '1',
+237 verbose headers   'x-timer': 'S1495702975.129416,VS0,VE154',
+237 verbose headers   vary: 'Accept-Encoding' }
+238 silly get cb [ 304,
+238 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     'cache-control': 'max-age=300',
+238 silly get     etag: 'W/"5923dd86-15e04"',
+238 silly get     age: '0',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-hkg6820-HKG',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '1',
+238 silly get     'x-timer': 'S1495702975.129416,VS0,VE154',
+238 silly get     vary: 'Accept-Encoding' } ]
+239 verbose etag https://registry.npmjs.org/debug from cache
+240 verbose get saving debug to /home/server_web/.npm/registry.npmjs.org/debug/.cache.json
+241 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+242 silly pickManifestFromRegistryMetadata spec >=2.6.6 <2.7.0 tag latest versions [ '0.0.1',
+242 silly pickManifestFromRegistryMetadata   '0.1.0',
+242 silly pickManifestFromRegistryMetadata   '0.2.0',
+242 silly pickManifestFromRegistryMetadata   '0.3.0',
+242 silly pickManifestFromRegistryMetadata   '0.4.0',
+242 silly pickManifestFromRegistryMetadata   '0.4.1',
+242 silly pickManifestFromRegistryMetadata   '0.5.0',
+242 silly pickManifestFromRegistryMetadata   '0.6.0',
+242 silly pickManifestFromRegistryMetadata   '0.7.0',
+242 silly pickManifestFromRegistryMetadata   '0.7.1',
+242 silly pickManifestFromRegistryMetadata   '0.7.2',
+242 silly pickManifestFromRegistryMetadata   '0.7.3',
+242 silly pickManifestFromRegistryMetadata   '0.7.4',
+242 silly pickManifestFromRegistryMetadata   '0.8.0',
+242 silly pickManifestFromRegistryMetadata   '0.8.1',
+242 silly pickManifestFromRegistryMetadata   '1.0.0',
+242 silly pickManifestFromRegistryMetadata   '1.0.1',
+242 silly pickManifestFromRegistryMetadata   '1.0.2',
+242 silly pickManifestFromRegistryMetadata   '1.0.3',
+242 silly pickManifestFromRegistryMetadata   '1.0.4',
+242 silly pickManifestFromRegistryMetadata   '2.0.0',
+242 silly pickManifestFromRegistryMetadata   '2.1.0',
+242 silly pickManifestFromRegistryMetadata   '2.1.1',
+242 silly pickManifestFromRegistryMetadata   '2.1.2',
+242 silly pickManifestFromRegistryMetadata   '2.1.3',
+242 silly pickManifestFromRegistryMetadata   '2.2.0',
+242 silly pickManifestFromRegistryMetadata   '2.3.0',
+242 silly pickManifestFromRegistryMetadata   '2.3.1',
+242 silly pickManifestFromRegistryMetadata   '2.3.2',
+242 silly pickManifestFromRegistryMetadata   '2.3.3',
+242 silly pickManifestFromRegistryMetadata   '2.4.0',
+242 silly pickManifestFromRegistryMetadata   '2.4.1',
+242 silly pickManifestFromRegistryMetadata   '2.4.2',
+242 silly pickManifestFromRegistryMetadata   '2.4.3',
+242 silly pickManifestFromRegistryMetadata   '2.4.4',
+242 silly pickManifestFromRegistryMetadata   '2.4.5',
+242 silly pickManifestFromRegistryMetadata   '2.5.0',
+242 silly pickManifestFromRegistryMetadata   '2.5.1',
+242 silly pickManifestFromRegistryMetadata   '2.5.2',
+242 silly pickManifestFromRegistryMetadata   '2.6.0',
+242 silly pickManifestFromRegistryMetadata   '2.6.1',
+242 silly pickManifestFromRegistryMetadata   '2.6.2',
+242 silly pickManifestFromRegistryMetadata   '2.6.3',
+242 silly pickManifestFromRegistryMetadata   '2.6.4',
+242 silly pickManifestFromRegistryMetadata   '2.6.5',
+242 silly pickManifestFromRegistryMetadata   '2.6.6',
+242 silly pickManifestFromRegistryMetadata   '2.6.7',
+242 silly pickManifestFromRegistryMetadata   '2.6.8' ]
+243 silly resolveWithNewModule debug@2.6.8 checking installable status
+244 silly cache add args [ 'debug@~2.6.6', null ]
+245 verbose cache add spec debug@~2.6.6
+246 silly cache add parsed spec Result {
+246 silly cache add   raw: 'debug@~2.6.6',
+246 silly cache add   scope: null,
+246 silly cache add   escapedName: 'debug',
+246 silly cache add   name: 'debug',
+246 silly cache add   rawSpec: '~2.6.6',
+246 silly cache add   spec: '>=2.6.6 <2.7.0',
+246 silly cache add   type: 'range' }
+247 silly addNamed debug@>=2.6.6 <2.7.0
+248 verbose addNamed ">=2.6.6 <2.7.0" is a valid semver range for debug
+249 silly addNameRange { name: 'debug', range: '>=2.6.6 <2.7.0', hasData: false }
+250 silly mapToRegistry name debug
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry data Result {
+253 silly mapToRegistry   raw: 'debug',
+253 silly mapToRegistry   scope: null,
+253 silly mapToRegistry   escapedName: 'debug',
+253 silly mapToRegistry   name: 'debug',
+253 silly mapToRegistry   rawSpec: '',
+253 silly mapToRegistry   spec: 'latest',
+253 silly mapToRegistry   type: 'tag' }
+254 silly mapToRegistry uri https://registry.npmjs.org/debug
+255 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+256 http 304 https://registry.npmjs.org/socket.io-parser
+257 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+257 verbose headers   via: '1.1 varnish',
+257 verbose headers   'cache-control': 'max-age=300',
+257 verbose headers   etag: 'W/"5913293f-770d"',
+257 verbose headers   age: '0',
+257 verbose headers   connection: 'keep-alive',
+257 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+257 verbose headers   'x-cache': 'HIT',
+257 verbose headers   'x-cache-hits': '1',
+257 verbose headers   'x-timer': 'S1495702975.471054,VS0,VE164',
+257 verbose headers   vary: 'Accept-Encoding' }
+258 silly get cb [ 304,
+258 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+258 silly get     via: '1.1 varnish',
+258 silly get     'cache-control': 'max-age=300',
+258 silly get     etag: 'W/"5913293f-770d"',
+258 silly get     age: '0',
+258 silly get     connection: 'keep-alive',
+258 silly get     'x-served-by': 'cache-hkg6825-HKG',
+258 silly get     'x-cache': 'HIT',
+258 silly get     'x-cache-hits': '1',
+258 silly get     'x-timer': 'S1495702975.471054,VS0,VE164',
+258 silly get     vary: 'Accept-Encoding' } ]
+259 verbose etag https://registry.npmjs.org/socket.io-parser from cache
+260 verbose get saving socket.io-parser to /home/server_web/.npm/registry.npmjs.org/socket.io-parser/.cache.json
+261 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+262 verbose get https://registry.npmjs.org/debug not expired, no request
+263 silly addNameRange number 2 { name: 'debug', range: '>=2.6.6 <2.7.0', hasData: true }
+264 silly addNameRange versions [ 'debug',
+264 silly addNameRange   [ '0.0.1',
+264 silly addNameRange     '0.1.0',
+264 silly addNameRange     '0.2.0',
+264 silly addNameRange     '0.3.0',
+264 silly addNameRange     '0.4.0',
+264 silly addNameRange     '0.4.1',
+264 silly addNameRange     '0.5.0',
+264 silly addNameRange     '0.6.0',
+264 silly addNameRange     '0.7.0',
+264 silly addNameRange     '0.7.1',
+264 silly addNameRange     '0.7.2',
+264 silly addNameRange     '0.7.3',
+264 silly addNameRange     '0.7.4',
+264 silly addNameRange     '0.8.0',
+264 silly addNameRange     '0.8.1',
+264 silly addNameRange     '1.0.0',
+264 silly addNameRange     '1.0.1',
+264 silly addNameRange     '1.0.2',
+264 silly addNameRange     '1.0.3',
+264 silly addNameRange     '1.0.4',
+264 silly addNameRange     '2.0.0',
+264 silly addNameRange     '2.1.0',
+264 silly addNameRange     '2.1.1',
+264 silly addNameRange     '2.1.2',
+264 silly addNameRange     '2.1.3',
+264 silly addNameRange     '2.2.0',
+264 silly addNameRange     '2.3.0',
+264 silly addNameRange     '2.3.1',
+264 silly addNameRange     '2.3.2',
+264 silly addNameRange     '2.3.3',
+264 silly addNameRange     '2.4.0',
+264 silly addNameRange     '2.4.1',
+264 silly addNameRange     '2.4.2',
+264 silly addNameRange     '2.4.3',
+264 silly addNameRange     '2.4.4',
+264 silly addNameRange     '2.4.5',
+264 silly addNameRange     '2.5.0',
+264 silly addNameRange     '2.5.1',
+264 silly addNameRange     '2.5.2',
+264 silly addNameRange     '2.6.0',
+264 silly addNameRange     '2.6.1',
+264 silly addNameRange     '2.6.2',
+264 silly addNameRange     '2.6.3',
+264 silly addNameRange     '2.6.4',
+264 silly addNameRange     '2.6.5',
+264 silly addNameRange     '2.6.6',
+264 silly addNameRange     '2.6.7',
+264 silly addNameRange     '2.6.8' ] ]
+265 silly pickManifestFromRegistryMetadata spec >=2.6.6 <2.7.0 tag latest versions [ '0.0.1',
+265 silly pickManifestFromRegistryMetadata   '0.1.0',
+265 silly pickManifestFromRegistryMetadata   '0.2.0',
+265 silly pickManifestFromRegistryMetadata   '0.3.0',
+265 silly pickManifestFromRegistryMetadata   '0.4.0',
+265 silly pickManifestFromRegistryMetadata   '0.4.1',
+265 silly pickManifestFromRegistryMetadata   '0.5.0',
+265 silly pickManifestFromRegistryMetadata   '0.6.0',
+265 silly pickManifestFromRegistryMetadata   '0.7.0',
+265 silly pickManifestFromRegistryMetadata   '0.7.1',
+265 silly pickManifestFromRegistryMetadata   '0.7.2',
+265 silly pickManifestFromRegistryMetadata   '0.7.3',
+265 silly pickManifestFromRegistryMetadata   '0.7.4',
+265 silly pickManifestFromRegistryMetadata   '0.8.0',
+265 silly pickManifestFromRegistryMetadata   '0.8.1',
+265 silly pickManifestFromRegistryMetadata   '1.0.0',
+265 silly pickManifestFromRegistryMetadata   '1.0.1',
+265 silly pickManifestFromRegistryMetadata   '1.0.2',
+265 silly pickManifestFromRegistryMetadata   '1.0.3',
+265 silly pickManifestFromRegistryMetadata   '1.0.4',
+265 silly pickManifestFromRegistryMetadata   '2.0.0',
+265 silly pickManifestFromRegistryMetadata   '2.1.0',
+265 silly pickManifestFromRegistryMetadata   '2.1.1',
+265 silly pickManifestFromRegistryMetadata   '2.1.2',
+265 silly pickManifestFromRegistryMetadata   '2.1.3',
+265 silly pickManifestFromRegistryMetadata   '2.2.0',
+265 silly pickManifestFromRegistryMetadata   '2.3.0',
+265 silly pickManifestFromRegistryMetadata   '2.3.1',
+265 silly pickManifestFromRegistryMetadata   '2.3.2',
+265 silly pickManifestFromRegistryMetadata   '2.3.3',
+265 silly pickManifestFromRegistryMetadata   '2.4.0',
+265 silly pickManifestFromRegistryMetadata   '2.4.1',
+265 silly pickManifestFromRegistryMetadata   '2.4.2',
+265 silly pickManifestFromRegistryMetadata   '2.4.3',
+265 silly pickManifestFromRegistryMetadata   '2.4.4',
+265 silly pickManifestFromRegistryMetadata   '2.4.5',
+265 silly pickManifestFromRegistryMetadata   '2.5.0',
+265 silly pickManifestFromRegistryMetadata   '2.5.1',
+265 silly pickManifestFromRegistryMetadata   '2.5.2',
+265 silly pickManifestFromRegistryMetadata   '2.6.0',
+265 silly pickManifestFromRegistryMetadata   '2.6.1',
+265 silly pickManifestFromRegistryMetadata   '2.6.2',
+265 silly pickManifestFromRegistryMetadata   '2.6.3',
+265 silly pickManifestFromRegistryMetadata   '2.6.4',
+265 silly pickManifestFromRegistryMetadata   '2.6.5',
+265 silly pickManifestFromRegistryMetadata   '2.6.6',
+265 silly pickManifestFromRegistryMetadata   '2.6.7',
+265 silly pickManifestFromRegistryMetadata   '2.6.8' ]
+266 silly addNamed debug@latest
+267 verbose addNamed "latest" is being treated as a dist-tag for debug
+268 info addNameTag [ 'debug', 'latest' ]
+269 silly mapToRegistry name debug
+270 silly mapToRegistry using default registry
+271 silly mapToRegistry registry https://registry.npmjs.org/
+272 silly mapToRegistry data Result {
+272 silly mapToRegistry   raw: 'debug',
+272 silly mapToRegistry   scope: null,
+272 silly mapToRegistry   escapedName: 'debug',
+272 silly mapToRegistry   name: 'debug',
+272 silly mapToRegistry   rawSpec: '',
+272 silly mapToRegistry   spec: 'latest',
+272 silly mapToRegistry   type: 'tag' }
+273 silly mapToRegistry uri https://registry.npmjs.org/debug
+274 verbose addNameTag registry:https://registry.npmjs.org/debug already in flight; waiting
+275 silly addNameTag next cb for debug with tag latest
+276 silly addNamed debug@2.6.8
+277 verbose addNamed "2.6.8" is a plain semver version for debug
+278 silly cache afterAdd debug@2.6.8
+279 verbose afterAdd /home/server_web/.npm/debug/2.6.8/package/package.json not in flight; writing
+280 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+281 silly pickManifestFromRegistryMetadata spec >=3.1.1 <3.2.0 tag latest versions [ '1.0.1',
+281 silly pickManifestFromRegistryMetadata   '1.0.2',
+281 silly pickManifestFromRegistryMetadata   '1.1.0',
+281 silly pickManifestFromRegistryMetadata   '1.1.1',
+281 silly pickManifestFromRegistryMetadata   '1.1.2',
+281 silly pickManifestFromRegistryMetadata   '2.0.0',
+281 silly pickManifestFromRegistryMetadata   '2.1.0',
+281 silly pickManifestFromRegistryMetadata   '2.1.1',
+281 silly pickManifestFromRegistryMetadata   '2.1.2',
+281 silly pickManifestFromRegistryMetadata   '2.1.3',
+281 silly pickManifestFromRegistryMetadata   '2.1.4',
+281 silly pickManifestFromRegistryMetadata   '2.1.5',
+281 silly pickManifestFromRegistryMetadata   '2.2.0',
+281 silly pickManifestFromRegistryMetadata   '2.2.1',
+281 silly pickManifestFromRegistryMetadata   '2.2.2',
+281 silly pickManifestFromRegistryMetadata   '2.2.3',
+281 silly pickManifestFromRegistryMetadata   '2.2.4',
+281 silly pickManifestFromRegistryMetadata   '2.2.5',
+281 silly pickManifestFromRegistryMetadata   '2.2.6',
+281 silly pickManifestFromRegistryMetadata   '2.3.0',
+281 silly pickManifestFromRegistryMetadata   '2.3.1',
+281 silly pickManifestFromRegistryMetadata   '2.3.2',
+281 silly pickManifestFromRegistryMetadata   '3.0.0',
+281 silly pickManifestFromRegistryMetadata   '3.1.0',
+281 silly pickManifestFromRegistryMetadata   '3.1.1',
+281 silly pickManifestFromRegistryMetadata   '3.1.2' ]
+282 silly resolveWithNewModule socket.io-parser@3.1.2 checking installable status
+283 silly cache add args [ 'socket.io-parser@~3.1.1', null ]
+284 verbose cache add spec socket.io-parser@~3.1.1
+285 silly cache add parsed spec Result {
+285 silly cache add   raw: 'socket.io-parser@~3.1.1',
+285 silly cache add   scope: null,
+285 silly cache add   escapedName: 'socket.io-parser',
+285 silly cache add   name: 'socket.io-parser',
+285 silly cache add   rawSpec: '~3.1.1',
+285 silly cache add   spec: '>=3.1.1 <3.2.0',
+285 silly cache add   type: 'range' }
+286 silly addNamed socket.io-parser@>=3.1.1 <3.2.0
+287 verbose addNamed ">=3.1.1 <3.2.0" is a valid semver range for socket.io-parser
+288 silly addNameRange { name: 'socket.io-parser',
+288 silly addNameRange   range: '>=3.1.1 <3.2.0',
+288 silly addNameRange   hasData: false }
+289 silly mapToRegistry name socket.io-parser
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry https://registry.npmjs.org/
+292 silly mapToRegistry data Result {
+292 silly mapToRegistry   raw: 'socket.io-parser',
+292 silly mapToRegistry   scope: null,
+292 silly mapToRegistry   escapedName: 'socket.io-parser',
+292 silly mapToRegistry   name: 'socket.io-parser',
+292 silly mapToRegistry   rawSpec: '',
+292 silly mapToRegistry   spec: 'latest',
+292 silly mapToRegistry   type: 'tag' }
+293 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+294 verbose addNameRange registry:https://registry.npmjs.org/socket.io-parser not in flight; fetching
+295 verbose get https://registry.npmjs.org/socket.io-parser not expired, no request
+296 silly addNameRange number 2 { name: 'socket.io-parser',
+296 silly addNameRange   range: '>=3.1.1 <3.2.0',
+296 silly addNameRange   hasData: true }
+297 silly addNameRange versions [ 'socket.io-parser',
+297 silly addNameRange   [ '1.0.1',
+297 silly addNameRange     '1.0.2',
+297 silly addNameRange     '1.1.0',
+297 silly addNameRange     '1.1.1',
+297 silly addNameRange     '1.1.2',
+297 silly addNameRange     '2.0.0',
+297 silly addNameRange     '2.1.0',
+297 silly addNameRange     '2.1.1',
+297 silly addNameRange     '2.1.2',
+297 silly addNameRange     '2.1.3',
+297 silly addNameRange     '2.1.4',
+297 silly addNameRange     '2.1.5',
+297 silly addNameRange     '2.2.0',
+297 silly addNameRange     '2.2.1',
+297 silly addNameRange     '2.2.2',
+297 silly addNameRange     '2.2.3',
+297 silly addNameRange     '2.2.4',
+297 silly addNameRange     '2.2.5',
+297 silly addNameRange     '2.2.6',
+297 silly addNameRange     '2.3.0',
+297 silly addNameRange     '2.3.1',
+297 silly addNameRange     '2.3.2',
+297 silly addNameRange     '3.0.0',
+297 silly addNameRange     '3.1.0',
+297 silly addNameRange     '3.1.1',
+297 silly addNameRange     '3.1.2' ] ]
+298 silly pickManifestFromRegistryMetadata spec >=3.1.1 <3.2.0 tag latest versions [ '1.0.1',
+298 silly pickManifestFromRegistryMetadata   '1.0.2',
+298 silly pickManifestFromRegistryMetadata   '1.1.0',
+298 silly pickManifestFromRegistryMetadata   '1.1.1',
+298 silly pickManifestFromRegistryMetadata   '1.1.2',
+298 silly pickManifestFromRegistryMetadata   '2.0.0',
+298 silly pickManifestFromRegistryMetadata   '2.1.0',
+298 silly pickManifestFromRegistryMetadata   '2.1.1',
+298 silly pickManifestFromRegistryMetadata   '2.1.2',
+298 silly pickManifestFromRegistryMetadata   '2.1.3',
+298 silly pickManifestFromRegistryMetadata   '2.1.4',
+298 silly pickManifestFromRegistryMetadata   '2.1.5',
+298 silly pickManifestFromRegistryMetadata   '2.2.0',
+298 silly pickManifestFromRegistryMetadata   '2.2.1',
+298 silly pickManifestFromRegistryMetadata   '2.2.2',
+298 silly pickManifestFromRegistryMetadata   '2.2.3',
+298 silly pickManifestFromRegistryMetadata   '2.2.4',
+298 silly pickManifestFromRegistryMetadata   '2.2.5',
+298 silly pickManifestFromRegistryMetadata   '2.2.6',
+298 silly pickManifestFromRegistryMetadata   '2.3.0',
+298 silly pickManifestFromRegistryMetadata   '2.3.1',
+298 silly pickManifestFromRegistryMetadata   '2.3.2',
+298 silly pickManifestFromRegistryMetadata   '3.0.0',
+298 silly pickManifestFromRegistryMetadata   '3.1.0',
+298 silly pickManifestFromRegistryMetadata   '3.1.1',
+298 silly pickManifestFromRegistryMetadata   '3.1.2' ]
+299 silly addNamed socket.io-parser@latest
+300 verbose addNamed "latest" is being treated as a dist-tag for socket.io-parser
+301 info addNameTag [ 'socket.io-parser', 'latest' ]
+302 silly mapToRegistry name socket.io-parser
+303 silly mapToRegistry using default registry
+304 silly mapToRegistry registry https://registry.npmjs.org/
+305 silly mapToRegistry data Result {
+305 silly mapToRegistry   raw: 'socket.io-parser',
+305 silly mapToRegistry   scope: null,
+305 silly mapToRegistry   escapedName: 'socket.io-parser',
+305 silly mapToRegistry   name: 'socket.io-parser',
+305 silly mapToRegistry   rawSpec: '',
+305 silly mapToRegistry   spec: 'latest',
+305 silly mapToRegistry   type: 'tag' }
+306 silly mapToRegistry uri https://registry.npmjs.org/socket.io-parser
+307 verbose addNameTag registry:https://registry.npmjs.org/socket.io-parser already in flight; waiting
+308 silly addNameTag next cb for socket.io-parser with tag latest
+309 silly addNamed socket.io-parser@3.1.2
+310 verbose addNamed "3.1.2" is a plain semver version for socket.io-parser
+311 verbose afterAdd /home/server_web/.npm/debug/2.6.8/package/package.json written
+312 silly cache afterAdd socket.io-parser@3.1.2
+313 verbose afterAdd /home/server_web/.npm/socket.io-parser/3.1.2/package/package.json not in flight; writing
+314 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+315 verbose afterAdd /home/server_web/.npm/socket.io-parser/3.1.2/package/package.json written
+316 http 304 https://registry.npmjs.org/socket.io-adapter
+317 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+317 verbose headers   via: '1.1 varnish',
+317 verbose headers   'cache-control': 'max-age=300',
+317 verbose headers   etag: 'W/"58dba910-200a"',
+317 verbose headers   age: '102',
+317 verbose headers   connection: 'keep-alive',
+317 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+317 verbose headers   'x-cache': 'HIT',
+317 verbose headers   'x-cache-hits': '2',
+317 verbose headers   'x-timer': 'S1495702976.698051,VS0,VE0',
+317 verbose headers   vary: 'Accept-Encoding' }
+318 silly get cb [ 304,
+318 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+318 silly get     via: '1.1 varnish',
+318 silly get     'cache-control': 'max-age=300',
+318 silly get     etag: 'W/"58dba910-200a"',
+318 silly get     age: '102',
+318 silly get     connection: 'keep-alive',
+318 silly get     'x-served-by': 'cache-hkg6820-HKG',
+318 silly get     'x-cache': 'HIT',
+318 silly get     'x-cache-hits': '2',
+318 silly get     'x-timer': 'S1495702976.698051,VS0,VE0',
+318 silly get     vary: 'Accept-Encoding' } ]
+319 verbose etag https://registry.npmjs.org/socket.io-adapter from cache
+320 verbose get saving socket.io-adapter to /home/server_web/.npm/registry.npmjs.org/socket.io-adapter/.cache.json
+321 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+322 silly pickManifestFromRegistryMetadata spec >=1.1.0 <1.2.0 tag latest versions [ '0.1.0',
+322 silly pickManifestFromRegistryMetadata   '0.2.0',
+322 silly pickManifestFromRegistryMetadata   '0.3.0',
+322 silly pickManifestFromRegistryMetadata   '0.3.1',
+322 silly pickManifestFromRegistryMetadata   '0.4.0',
+322 silly pickManifestFromRegistryMetadata   '0.5.0',
+322 silly pickManifestFromRegistryMetadata   '1.0.0',
+322 silly pickManifestFromRegistryMetadata   '1.1.0' ]
+323 silly resolveWithNewModule socket.io-adapter@1.1.0 checking installable status
+324 silly cache add args [ 'socket.io-adapter@~1.1.0', null ]
+325 verbose cache add spec socket.io-adapter@~1.1.0
+326 silly cache add parsed spec Result {
+326 silly cache add   raw: 'socket.io-adapter@~1.1.0',
+326 silly cache add   scope: null,
+326 silly cache add   escapedName: 'socket.io-adapter',
+326 silly cache add   name: 'socket.io-adapter',
+326 silly cache add   rawSpec: '~1.1.0',
+326 silly cache add   spec: '>=1.1.0 <1.2.0',
+326 silly cache add   type: 'range' }
+327 silly addNamed socket.io-adapter@>=1.1.0 <1.2.0
+328 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for socket.io-adapter
+329 silly addNameRange { name: 'socket.io-adapter',
+329 silly addNameRange   range: '>=1.1.0 <1.2.0',
+329 silly addNameRange   hasData: false }
+330 silly mapToRegistry name socket.io-adapter
+331 silly mapToRegistry using default registry
+332 silly mapToRegistry registry https://registry.npmjs.org/
+333 silly mapToRegistry data Result {
+333 silly mapToRegistry   raw: 'socket.io-adapter',
+333 silly mapToRegistry   scope: null,
+333 silly mapToRegistry   escapedName: 'socket.io-adapter',
+333 silly mapToRegistry   name: 'socket.io-adapter',
+333 silly mapToRegistry   rawSpec: '',
+333 silly mapToRegistry   spec: 'latest',
+333 silly mapToRegistry   type: 'tag' }
+334 silly mapToRegistry uri https://registry.npmjs.org/socket.io-adapter
+335 verbose addNameRange registry:https://registry.npmjs.org/socket.io-adapter not in flight; fetching
+336 verbose get https://registry.npmjs.org/socket.io-adapter not expired, no request
+337 silly addNameRange number 2 { name: 'socket.io-adapter',
+337 silly addNameRange   range: '>=1.1.0 <1.2.0',
+337 silly addNameRange   hasData: true }
+338 silly addNameRange versions [ 'socket.io-adapter',
+338 silly addNameRange   [ '0.1.0',
+338 silly addNameRange     '0.2.0',
+338 silly addNameRange     '0.3.0',
+338 silly addNameRange     '0.3.1',
+338 silly addNameRange     '0.4.0',
+338 silly addNameRange     '0.5.0',
+338 silly addNameRange     '1.0.0',
+338 silly addNameRange     '1.1.0' ] ]
+339 silly pickManifestFromRegistryMetadata spec >=1.1.0 <1.2.0 tag latest versions [ '0.1.0',
+339 silly pickManifestFromRegistryMetadata   '0.2.0',
+339 silly pickManifestFromRegistryMetadata   '0.3.0',
+339 silly pickManifestFromRegistryMetadata   '0.3.1',
+339 silly pickManifestFromRegistryMetadata   '0.4.0',
+339 silly pickManifestFromRegistryMetadata   '0.5.0',
+339 silly pickManifestFromRegistryMetadata   '1.0.0',
+339 silly pickManifestFromRegistryMetadata   '1.1.0' ]
+340 silly addNamed socket.io-adapter@latest
+341 verbose addNamed "latest" is being treated as a dist-tag for socket.io-adapter
+342 info addNameTag [ 'socket.io-adapter', 'latest' ]
+343 silly mapToRegistry name socket.io-adapter
+344 silly mapToRegistry using default registry
+345 silly mapToRegistry registry https://registry.npmjs.org/
+346 silly mapToRegistry data Result {
+346 silly mapToRegistry   raw: 'socket.io-adapter',
+346 silly mapToRegistry   scope: null,
+346 silly mapToRegistry   escapedName: 'socket.io-adapter',
+346 silly mapToRegistry   name: 'socket.io-adapter',
+346 silly mapToRegistry   rawSpec: '',
+346 silly mapToRegistry   spec: 'latest',
+346 silly mapToRegistry   type: 'tag' }
+347 silly mapToRegistry uri https://registry.npmjs.org/socket.io-adapter
+348 verbose addNameTag registry:https://registry.npmjs.org/socket.io-adapter already in flight; waiting
+349 silly addNameTag next cb for socket.io-adapter with tag latest
+350 silly addNamed socket.io-adapter@1.1.0
+351 verbose addNamed "1.1.0" is a plain semver version for socket.io-adapter
+352 silly cache afterAdd socket.io-adapter@1.1.0
+353 verbose afterAdd /home/server_web/.npm/socket.io-adapter/1.1.0/package/package.json not in flight; writing
+354 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+355 verbose afterAdd /home/server_web/.npm/socket.io-adapter/1.1.0/package/package.json written
+356 silly fetchNamedPackageData ms
+357 silly mapToRegistry name ms
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry data Result {
+360 silly mapToRegistry   raw: 'ms',
+360 silly mapToRegistry   scope: null,
+360 silly mapToRegistry   escapedName: 'ms',
+360 silly mapToRegistry   name: 'ms',
+360 silly mapToRegistry   rawSpec: '',
+360 silly mapToRegistry   spec: 'latest',
+360 silly mapToRegistry   type: 'tag' }
+361 silly mapToRegistry uri https://registry.npmjs.org/ms
+362 verbose request uri https://registry.npmjs.org/ms
+363 verbose request no auth needed
+364 info attempt registry request try #1 at 5:02:54 PM
+365 verbose etag W/"591e6b9c-3b76"
+366 verbose lastModified Fri, 19 May 2017 03:50:52 GMT
+367 http request GET https://registry.npmjs.org/ms
+368 http 304 https://registry.npmjs.org/ms
+369 verbose headers { date: 'Thu, 25 May 2017 09:02:55 GMT',
+369 verbose headers   via: '1.1 varnish',
+369 verbose headers   'cache-control': 'max-age=300',
+369 verbose headers   etag: 'W/"591e6b9c-3b76"',
+369 verbose headers   age: '73',
+369 verbose headers   connection: 'keep-alive',
+369 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+369 verbose headers   'x-cache': 'HIT',
+369 verbose headers   'x-cache-hits': '108',
+369 verbose headers   'x-timer': 'S1495702976.834312,VS0,VE0',
+369 verbose headers   vary: 'Accept-Encoding' }
+370 silly get cb [ 304,
+370 silly get   { date: 'Thu, 25 May 2017 09:02:55 GMT',
+370 silly get     via: '1.1 varnish',
+370 silly get     'cache-control': 'max-age=300',
+370 silly get     etag: 'W/"591e6b9c-3b76"',
+370 silly get     age: '73',
+370 silly get     connection: 'keep-alive',
+370 silly get     'x-served-by': 'cache-hkg6825-HKG',
+370 silly get     'x-cache': 'HIT',
+370 silly get     'x-cache-hits': '108',
+370 silly get     'x-timer': 'S1495702976.834312,VS0,VE0',
+370 silly get     vary: 'Accept-Encoding' } ]
+371 verbose etag https://registry.npmjs.org/ms from cache
+372 verbose get saving ms to /home/server_web/.npm/registry.npmjs.org/ms/.cache.json
+373 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+374 silly pickManifestFromRegistryMetadata spec 2.0.0 tag latest versions [ '0.1.0',
+374 silly pickManifestFromRegistryMetadata   '0.2.0',
+374 silly pickManifestFromRegistryMetadata   '0.3.0',
+374 silly pickManifestFromRegistryMetadata   '0.4.0',
+374 silly pickManifestFromRegistryMetadata   '0.5.0',
+374 silly pickManifestFromRegistryMetadata   '0.5.1',
+374 silly pickManifestFromRegistryMetadata   '0.6.0',
+374 silly pickManifestFromRegistryMetadata   '0.6.1',
+374 silly pickManifestFromRegistryMetadata   '0.6.2',
+374 silly pickManifestFromRegistryMetadata   '0.7.0',
+374 silly pickManifestFromRegistryMetadata   '0.7.1',
+374 silly pickManifestFromRegistryMetadata   '0.7.2',
+374 silly pickManifestFromRegistryMetadata   '0.7.3',
+374 silly pickManifestFromRegistryMetadata   '1.0.0',
+374 silly pickManifestFromRegistryMetadata   '2.0.0' ]
+375 silly resolveWithNewModule ms@2.0.0 checking installable status
+376 silly cache add args [ 'ms@2.0.0', null ]
+377 verbose cache add spec ms@2.0.0
+378 silly cache add parsed spec Result {
+378 silly cache add   raw: 'ms@2.0.0',
+378 silly cache add   scope: null,
+378 silly cache add   escapedName: 'ms',
+378 silly cache add   name: 'ms',
+378 silly cache add   rawSpec: '2.0.0',
+378 silly cache add   spec: '2.0.0',
+378 silly cache add   type: 'version' }
+379 silly addNamed ms@2.0.0
+380 verbose addNamed "2.0.0" is a plain semver version for ms
+381 silly mapToRegistry name ms
+382 silly mapToRegistry using default registry
+383 silly mapToRegistry registry https://registry.npmjs.org/
+384 silly mapToRegistry data Result {
+384 silly mapToRegistry   raw: 'ms',
+384 silly mapToRegistry   scope: null,
+384 silly mapToRegistry   escapedName: 'ms',
+384 silly mapToRegistry   name: 'ms',
+384 silly mapToRegistry   rawSpec: '',
+384 silly mapToRegistry   spec: 'latest',
+384 silly mapToRegistry   type: 'tag' }
+385 silly mapToRegistry uri https://registry.npmjs.org/ms
+386 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+387 verbose get https://registry.npmjs.org/ms not expired, no request
+388 silly cache afterAdd ms@2.0.0
+389 verbose afterAdd /home/server_web/.npm/ms/2.0.0/package/package.json not in flight; writing
+390 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+391 verbose afterAdd /home/server_web/.npm/ms/2.0.0/package/package.json written
+392 silly fetchNamedPackageData base64id
+393 silly mapToRegistry name base64id
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry https://registry.npmjs.org/
+396 silly mapToRegistry data Result {
+396 silly mapToRegistry   raw: 'base64id',
+396 silly mapToRegistry   scope: null,
+396 silly mapToRegistry   escapedName: 'base64id',
+396 silly mapToRegistry   name: 'base64id',
+396 silly mapToRegistry   rawSpec: '',
+396 silly mapToRegistry   spec: 'latest',
+396 silly mapToRegistry   type: 'tag' }
+397 silly mapToRegistry uri https://registry.npmjs.org/base64id
+398 silly fetchNamedPackageData debug
+399 silly mapToRegistry name debug
+400 silly mapToRegistry using default registry
+401 silly mapToRegistry registry https://registry.npmjs.org/
+402 silly mapToRegistry data Result {
+402 silly mapToRegistry   raw: 'debug',
+402 silly mapToRegistry   scope: null,
+402 silly mapToRegistry   escapedName: 'debug',
+402 silly mapToRegistry   name: 'debug',
+402 silly mapToRegistry   rawSpec: '',
+402 silly mapToRegistry   spec: 'latest',
+402 silly mapToRegistry   type: 'tag' }
+403 silly mapToRegistry uri https://registry.npmjs.org/debug
+404 silly pickManifestFromRegistryMetadata spec >=2.6.4 <2.7.0 tag latest versions [ '0.0.1',
+404 silly pickManifestFromRegistryMetadata   '0.1.0',
+404 silly pickManifestFromRegistryMetadata   '0.2.0',
+404 silly pickManifestFromRegistryMetadata   '0.3.0',
+404 silly pickManifestFromRegistryMetadata   '0.4.0',
+404 silly pickManifestFromRegistryMetadata   '0.4.1',
+404 silly pickManifestFromRegistryMetadata   '0.5.0',
+404 silly pickManifestFromRegistryMetadata   '0.6.0',
+404 silly pickManifestFromRegistryMetadata   '0.7.0',
+404 silly pickManifestFromRegistryMetadata   '0.7.1',
+404 silly pickManifestFromRegistryMetadata   '0.7.2',
+404 silly pickManifestFromRegistryMetadata   '0.7.3',
+404 silly pickManifestFromRegistryMetadata   '0.7.4',
+404 silly pickManifestFromRegistryMetadata   '0.8.0',
+404 silly pickManifestFromRegistryMetadata   '0.8.1',
+404 silly pickManifestFromRegistryMetadata   '1.0.0',
+404 silly pickManifestFromRegistryMetadata   '1.0.1',
+404 silly pickManifestFromRegistryMetadata   '1.0.2',
+404 silly pickManifestFromRegistryMetadata   '1.0.3',
+404 silly pickManifestFromRegistryMetadata   '1.0.4',
+404 silly pickManifestFromRegistryMetadata   '2.0.0',
+404 silly pickManifestFromRegistryMetadata   '2.1.0',
+404 silly pickManifestFromRegistryMetadata   '2.1.1',
+404 silly pickManifestFromRegistryMetadata   '2.1.2',
+404 silly pickManifestFromRegistryMetadata   '2.1.3',
+404 silly pickManifestFromRegistryMetadata   '2.2.0',
+404 silly pickManifestFromRegistryMetadata   '2.3.0',
+404 silly pickManifestFromRegistryMetadata   '2.3.1',
+404 silly pickManifestFromRegistryMetadata   '2.3.2',
+404 silly pickManifestFromRegistryMetadata   '2.3.3',
+404 silly pickManifestFromRegistryMetadata   '2.4.0',
+404 silly pickManifestFromRegistryMetadata   '2.4.1',
+404 silly pickManifestFromRegistryMetadata   '2.4.2',
+404 silly pickManifestFromRegistryMetadata   '2.4.3',
+404 silly pickManifestFromRegistryMetadata   '2.4.4',
+404 silly pickManifestFromRegistryMetadata   '2.4.5',
+404 silly pickManifestFromRegistryMetadata   '2.5.0',
+404 silly pickManifestFromRegistryMetadata   '2.5.1',
+404 silly pickManifestFromRegistryMetadata   '2.5.2',
+404 silly pickManifestFromRegistryMetadata   '2.6.0',
+404 silly pickManifestFromRegistryMetadata   '2.6.1',
+404 silly pickManifestFromRegistryMetadata   '2.6.2',
+404 silly pickManifestFromRegistryMetadata   '2.6.3',
+404 silly pickManifestFromRegistryMetadata   '2.6.4',
+404 silly pickManifestFromRegistryMetadata   '2.6.5',
+404 silly pickManifestFromRegistryMetadata   '2.6.6',
+404 silly pickManifestFromRegistryMetadata   '2.6.7',
+404 silly pickManifestFromRegistryMetadata   '2.6.8' ]
+405 silly resolveWithNewModule debug@2.6.8 checking installable status
+406 silly fetchNamedPackageData engine.io-parser
+407 silly mapToRegistry name engine.io-parser
+408 silly mapToRegistry using default registry
+409 silly mapToRegistry registry https://registry.npmjs.org/
+410 silly mapToRegistry data Result {
+410 silly mapToRegistry   raw: 'engine.io-parser',
+410 silly mapToRegistry   scope: null,
+410 silly mapToRegistry   escapedName: 'engine.io-parser',
+410 silly mapToRegistry   name: 'engine.io-parser',
+410 silly mapToRegistry   rawSpec: '',
+410 silly mapToRegistry   spec: 'latest',
+410 silly mapToRegistry   type: 'tag' }
+411 silly mapToRegistry uri https://registry.npmjs.org/engine.io-parser
+412 silly fetchNamedPackageData ws
+413 silly mapToRegistry name ws
+414 silly mapToRegistry using default registry
+415 silly mapToRegistry registry https://registry.npmjs.org/
+416 silly mapToRegistry data Result {
+416 silly mapToRegistry   raw: 'ws',
+416 silly mapToRegistry   scope: null,
+416 silly mapToRegistry   escapedName: 'ws',
+416 silly mapToRegistry   name: 'ws',
+416 silly mapToRegistry   rawSpec: '',
+416 silly mapToRegistry   spec: 'latest',
+416 silly mapToRegistry   type: 'tag' }
+417 silly mapToRegistry uri https://registry.npmjs.org/ws
+418 silly fetchNamedPackageData uws
+419 silly mapToRegistry name uws
+420 silly mapToRegistry using default registry
+421 silly mapToRegistry registry https://registry.npmjs.org/
+422 silly mapToRegistry data Result {
+422 silly mapToRegistry   raw: 'uws',
+422 silly mapToRegistry   scope: null,
+422 silly mapToRegistry   escapedName: 'uws',
+422 silly mapToRegistry   name: 'uws',
+422 silly mapToRegistry   rawSpec: '',
+422 silly mapToRegistry   spec: 'latest',
+422 silly mapToRegistry   type: 'tag' }
+423 silly mapToRegistry uri https://registry.npmjs.org/uws
+424 verbose request uri https://registry.npmjs.org/base64id
+425 verbose request no auth needed
+426 info attempt registry request try #1 at 5:02:54 PM
+427 verbose etag W/"58824d0b-c81"
+428 verbose lastModified Fri, 20 Jan 2017 17:46:51 GMT
+429 http request GET https://registry.npmjs.org/base64id
+430 verbose request uri https://registry.npmjs.org/engine.io-parser
+431 verbose request no auth needed
+432 info attempt registry request try #1 at 5:02:54 PM
+433 verbose etag W/"59025d2f-9f44"
+434 verbose lastModified Thu, 27 Apr 2017 21:05:51 GMT
+435 http request GET https://registry.npmjs.org/engine.io-parser
+436 verbose request uri https://registry.npmjs.org/ws
+437 verbose request no auth needed
+438 info attempt registry request try #1 at 5:02:54 PM
+439 verbose etag W/"59209a73-1d3bf"
+440 verbose lastModified Sat, 20 May 2017 19:35:15 GMT
+441 http request GET https://registry.npmjs.org/ws
+442 verbose request uri https://registry.npmjs.org/uws
+443 verbose request no auth needed
+444 info attempt registry request try #1 at 5:02:54 PM
+445 verbose etag W/"59129d40-255a"
+446 verbose lastModified Wed, 10 May 2017 04:55:28 GMT
+447 http request GET https://registry.npmjs.org/uws
+448 http 304 https://registry.npmjs.org/ws
+449 verbose headers { date: 'Thu, 25 May 2017 09:02:56 GMT',
+449 verbose headers   via: '1.1 varnish',
+449 verbose headers   'cache-control': 'max-age=300',
+449 verbose headers   etag: 'W/"59209a73-1d3bf"',
+449 verbose headers   age: '164',
+449 verbose headers   connection: 'keep-alive',
+449 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+449 verbose headers   'x-cache': 'HIT',
+449 verbose headers   'x-cache-hits': '6',
+449 verbose headers   'x-timer': 'S1495702976.008589,VS0,VE0',
+449 verbose headers   vary: 'Accept-Encoding' }
+450 silly get cb [ 304,
+450 silly get   { date: 'Thu, 25 May 2017 09:02:56 GMT',
+450 silly get     via: '1.1 varnish',
+450 silly get     'cache-control': 'max-age=300',
+450 silly get     etag: 'W/"59209a73-1d3bf"',
+450 silly get     age: '164',
+450 silly get     connection: 'keep-alive',
+450 silly get     'x-served-by': 'cache-hkg6820-HKG',
+450 silly get     'x-cache': 'HIT',
+450 silly get     'x-cache-hits': '6',
+450 silly get     'x-timer': 'S1495702976.008589,VS0,VE0',
+450 silly get     vary: 'Accept-Encoding' } ]
+451 verbose etag https://registry.npmjs.org/ws from cache
+452 verbose get saving ws to /home/server_web/.npm/registry.npmjs.org/ws/.cache.json
+453 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+454 http 304 https://registry.npmjs.org/engine.io-parser
+455 verbose headers { date: 'Thu, 25 May 2017 09:02:56 GMT',
+455 verbose headers   via: '1.1 varnish',
+455 verbose headers   'cache-control': 'max-age=300',
+455 verbose headers   etag: 'W/"59025d2f-9f44"',
+455 verbose headers   age: '295',
+455 verbose headers   connection: 'keep-alive',
+455 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
+455 verbose headers   'x-cache': 'HIT',
+455 verbose headers   'x-cache-hits': '4',
+455 verbose headers   'x-timer': 'S1495702976.008958,VS0,VE0',
+455 verbose headers   vary: 'Accept-Encoding' }
+456 silly get cb [ 304,
+456 silly get   { date: 'Thu, 25 May 2017 09:02:56 GMT',
+456 silly get     via: '1.1 varnish',
+456 silly get     'cache-control': 'max-age=300',
+456 silly get     etag: 'W/"59025d2f-9f44"',
+456 silly get     age: '295',
+456 silly get     connection: 'keep-alive',
+456 silly get     'x-served-by': 'cache-hkg6820-HKG',
+456 silly get     'x-cache': 'HIT',
+456 silly get     'x-cache-hits': '4',
+456 silly get     'x-timer': 'S1495702976.008958,VS0,VE0',
+456 silly get     vary: 'Accept-Encoding' } ]
+457 verbose etag https://registry.npmjs.org/engine.io-parser from cache
+458 verbose get saving engine.io-parser to /home/server_web/.npm/registry.npmjs.org/engine.io-parser/.cache.json
+459 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+460 silly pickManifestFromRegistryMetadata spec >=2.3.1 <2.4.0 tag latest versions [ '0.2.6',
+460 silly pickManifestFromRegistryMetadata   '0.2.8',
+460 silly pickManifestFromRegistryMetadata   '0.2.9',
+460 silly pickManifestFromRegistryMetadata   '0.3.0',
+460 silly pickManifestFromRegistryMetadata   '0.3.1',
+460 silly pickManifestFromRegistryMetadata   '0.3.2',
+460 silly pickManifestFromRegistryMetadata   '0.3.3',
+460 silly pickManifestFromRegistryMetadata   '0.3.4',
+460 silly pickManifestFromRegistryMetadata   '0.3.4-2',
+460 silly pickManifestFromRegistryMetadata   '0.3.5',
+460 silly pickManifestFromRegistryMetadata   '0.3.5-2',
+460 silly pickManifestFromRegistryMetadata   '0.3.5-3',
+460 silly pickManifestFromRegistryMetadata   '0.3.5-4',
+460 silly pickManifestFromRegistryMetadata   '0.3.6',
+460 silly pickManifestFromRegistryMetadata   '0.3.7',
+460 silly pickManifestFromRegistryMetadata   '0.3.8',
+460 silly pickManifestFromRegistryMetadata   '0.3.9',
+460 silly pickManifestFromRegistryMetadata   '0.4.0',
+460 silly pickManifestFromRegistryMetadata   '0.4.1',
+460 silly pickManifestFromRegistryMetadata   '0.4.2',
+460 silly pickManifestFromRegistryMetadata   '0.4.3',
+460 silly pickManifestFromRegistryMetadata   '0.4.5',
+460 silly pickManifestFromRegistryMetadata   '0.4.6',
+460 silly pickManifestFromRegistryMetadata   '0.4.7',
+460 silly pickManifestFromRegistryMetadata   '0.4.8',
+460 silly pickManifestFromRegistryMetadata   '0.4.9',
+460 silly pickManifestFromRegistryMetadata   '0.4.10',
+460 silly pickManifestFromRegistryMetadata   '0.4.11',
+460 silly pickManifestFromRegistryMetadata   '0.4.12',
+460 silly pickManifestFromRegistryMetadata   '0.4.13',
+460 silly pickManifestFromRegistryMetadata   '0.4.14',
+460 silly pickManifestFromRegistryMetadata   '0.4.15',
+460 silly pickManifestFromRegistryMetadata   '0.4.16',
+460 silly pickManifestFromRegistryMetadata   '0.4.17',
+460 silly pickManifestFromRegistryMetadata   '0.4.18',
+460 silly pickManifestFromRegistryMetadata   '0.4.19',
+460 silly pickManifestFromRegistryMetadata   '0.4.20',
+460 silly pickManifestFromRegistryMetadata   '0.4.21',
+460 silly pickManifestFromRegistryMetadata   '0.4.22',
+460 silly pickManifestFromRegistryMetadata   '0.4.23',
+460 silly pickManifestFromRegistryMetadata   '0.4.24',
+460 silly pickManifestFromRegistryMetadata   '0.4.25',
+460 silly pickManifestFromRegistryMetadata   '0.4.27',
+460 silly pickManifestFromRegistryMetadata   '0.4.28',
+460 silly pickManifestFromRegistryMetadata   '0.4.29',
+460 silly pickManifestFromRegistryMetadata   '0.4.30',
+460 silly pickManifestFromRegistryMetadata   '0.4.31',
+460 silly pickManifestFromRegistryMetadata   '0.4.32',
+460 silly pickManifestFromRegistryMetadata   '0.5.0',
+460 silly pickManifestFromRegistryMetadata   '0.6.0',
+460 silly pickManifestFromRegistryMetadata   '0.6.1',
+460 silly pickManifestFromRegistryMetadata   '0.6.2',
+460 silly pickManifestFromRegistryMetadata   '0.6.3',
+460 silly pickManifestFromRegistryMetadata   '0.6.4',
+460 silly pickManifestFromRegistryMetadata   '0.6.5',
+460 silly pickManifestFromRegistryMetadata   '0.7.0',
+460 silly pickManifestFromRegistryMetadata   '0.7.1',
+460 silly pickManifestFromRegistryMetadata   '0.7.2',
+460 silly pickManifestFromRegistryMetadata   '0.8.0',
+460 silly pickManifestFromRegistryMetadata   '0.8.1',
+460 silly pickManifestFromRegistryMetadata   '1.0.0',
+460 silly pickManifestFromRegistryMetadata   '1.0.1',
+460 silly pickManifestFromRegistryMetadata   '1.1.0',
+460 silly pickManifestFromRegistryMetadata   '1.1.1',
+460 silly pickManifestFromRegistryMetadata   '2.0.0-beta.0',
+460 silly pickManifestFromRegistryMetadata   '2.0.0-beta.1',
+460 silly pickManifestFromRegistryMetadata   '2.0.0-beta.2',
+460 silly pickManifestFromRegistryMetadata   '2.0.0',
+460 silly pickManifestFromRegistryMetadata   '2.0.1',
+460 silly pickManifestFromRegistryMetadata   '2.0.2',
+460 silly pickManifestFromRegistryMetadata   '2.0.3',
+460 silly pickManifestFromRegistryMetadata   '1.1.2',
+460 silly pickManifestFromRegistryMetadata   '2.1.0',
+460 silly pickManifestFromRegistryMetadata   '2.2.0',
+460 silly pickManifestFromRegistryMetadata   '1.1.3',
+460 silly pickManifestFromRegistryMetadata   '1.1.4',
+460 silly pickManifestFromRegistryMetadata   '2.2.1',
+460 silly pickManifestFromRegistryMetadata   '2.2.2',
+460 silly pickManifestFromRegistryMetadata   '2.2.3',
+460 silly pickManifestFromRegistryMetadata   '2.3.0',
+460 silly pickManifestFromRegistryMetadata   '2.3.1',
+460 silly pickManifestFromRegistryMetadata   '3.0.0' ]
+461 silly resolveWithNewModule ws@2.3.1 checking installable status
+462 silly cache add args [ 'ws@~2.3.1', null ]
+463 verbose cache add spec ws@~2.3.1
+464 silly cache add parsed spec Result {
+464 silly cache add   raw: 'ws@~2.3.1',
+464 silly cache add   scope: null,
+464 silly cache add   escapedName: 'ws',
+464 silly cache add   name: 'ws',
+464 silly cache add   rawSpec: '~2.3.1',
+464 silly cache add   spec: '>=2.3.1 <2.4.0',
+464 silly cache add   type: 'range' }
+465 silly addNamed ws@>=2.3.1 <2.4.0
+466 verbose addNamed ">=2.3.1 <2.4.0" is a valid semver range for ws
+467 silly addNameRange { name: 'ws', range: '>=2.3.1 <2.4.0', hasData: false }
+468 silly mapToRegistry name ws
+469 silly mapToRegistry using default registry
+470 silly mapToRegistry registry https://registry.npmjs.org/
+471 silly mapToRegistry data Result {
+471 silly mapToRegistry   raw: 'ws',
+471 silly mapToRegistry   scope: null,
+471 silly mapToRegistry   escapedName: 'ws',
+471 silly mapToRegistry   name: 'ws',
+471 silly mapToRegistry   rawSpec: '',
+471 silly mapToRegistry   spec: 'latest',
+471 silly mapToRegistry   type: 'tag' }
+472 silly mapToRegistry uri https://registry.npmjs.org/ws
+473 verbose addNameRange registry:https://registry.npmjs.org/ws not in flight; fetching
+474 verbose get https://registry.npmjs.org/ws not expired, no request
+475 silly addNameRange number 2 { name: 'ws', range: '>=2.3.1 <2.4.0', hasData: true }
+476 silly addNameRange versions [ 'ws',
+476 silly addNameRange   [ '0.2.6',
+476 silly addNameRange     '0.2.8',
+476 silly addNameRange     '0.2.9',
+476 silly addNameRange     '0.3.0',
+476 silly addNameRange     '0.3.1',
+476 silly addNameRange     '0.3.2',
+476 silly addNameRange     '0.3.3',
+476 silly addNameRange     '0.3.4',
+476 silly addNameRange     '0.3.4-2',
+476 silly addNameRange     '0.3.5',
+476 silly addNameRange     '0.3.5-2',
+476 silly addNameRange     '0.3.5-3',
+476 silly addNameRange     '0.3.5-4',
+476 silly addNameRange     '0.3.6',
+476 silly addNameRange     '0.3.7',
+476 silly addNameRange     '0.3.8',
+476 silly addNameRange     '0.3.9',
+476 silly addNameRange     '0.4.0',
+476 silly addNameRange     '0.4.1',
+476 silly addNameRange     '0.4.2',
+476 silly addNameRange     '0.4.3',
+476 silly addNameRange     '0.4.5',
+476 silly addNameRange     '0.4.6',
+476 silly addNameRange     '0.4.7',
+476 silly addNameRange     '0.4.8',
+476 silly addNameRange     '0.4.9',
+476 silly addNameRange     '0.4.10',
+476 silly addNameRange     '0.4.11',
+476 silly addNameRange     '0.4.12',
+476 silly addNameRange     '0.4.13',
+476 silly addNameRange     '0.4.14',
+476 silly addNameRange     '0.4.15',
+476 silly addNameRange     '0.4.16',
+476 silly addNameRange     '0.4.17',
+476 silly addNameRange     '0.4.18',
+476 silly addNameRange     '0.4.19',
+476 silly addNameRange     '0.4.20',
+476 silly addNameRange     '0.4.21',
+476 silly addNameRange     '0.4.22',
+476 silly addNameRange     '0.4.23',
+476 silly addNameRange     '0.4.24',
+476 silly addNameRange     '0.4.25',
+476 silly addNameRange     '0.4.27',
+476 silly addNameRange     '0.4.28',
+476 silly addNameRange     '0.4.29',
+476 silly addNameRange     '0.4.30',
+476 silly addNameRange     '0.4.31',
+476 silly addNameRange     '0.4.32',
+476 silly addNameRange     '0.5.0',
+476 silly addNameRange     '0.6.0',
+476 silly addNameRange     '0.6.1',
+476 silly addNameRange     '0.6.2',
+476 silly addNameRange     '0.6.3',
+476 silly addNameRange     '0.6.4',
+476 silly addNameRange     '0.6.5',
+476 silly addNameRange     '0.7.0',
+476 silly addNameRange     '0.7.1',
+476 silly addNameRange     '0.7.2',
+476 silly addNameRange     '0.8.0',
+476 silly addNameRange     '0.8.1',
+476 silly addNameRange     '1.0.0',
+476 silly addNameRange     '1.0.1',
+476 silly addNameRange     '1.1.0',
+476 silly addNameRange     '1.1.1',
+476 silly addNameRange     '2.0.0-beta.0',
+476 silly addNameRange     '2.0.0-beta.1',
+476 silly addNameRange     '2.0.0-beta.2',
+476 silly addNameRange     '2.0.0',
+476 silly addNameRange     '2.0.1',
+476 silly addNameRange     '2.0.2',
+476 silly addNameRange     '2.0.3',
+476 silly addNameRange     '1.1.2',
+476 silly addNameRange     '2.1.0',
+476 silly addNameRange     '2.2.0',
+476 silly addNameRange     '1.1.3',
+476 silly addNameRange     '1.1.4',
+476 silly addNameRange     '2.2.1',
+476 silly addNameRange     '2.2.2',
+476 silly addNameRange     '2.2.3',
+476 silly addNameRange     '2.3.0',
+476 silly addNameRange     '2.3.1',
+476 silly addNameRange     '3.0.0' ] ]
+477 silly pickManifestFromRegistryMetadata spec >=2.3.1 <2.4.0 tag latest versions [ '0.2.6',
+477 silly pickManifestFromRegistryMetadata   '0.2.8',
+477 silly pickManifestFromRegistryMetadata   '0.2.9',
+477 silly pickManifestFromRegistryMetadata   '0.3.0',
+477 silly pickManifestFromRegistryMetadata   '0.3.1',
+477 silly pickManifestFromRegistryMetadata   '0.3.2',
+477 silly pickManifestFromRegistryMetadata   '0.3.3',
+477 silly pickManifestFromRegistryMetadata   '0.3.4',
+477 silly pickManifestFromRegistryMetadata   '0.3.4-2',
+477 silly pickManifestFromRegistryMetadata   '0.3.5',
+477 silly pickManifestFromRegistryMetadata   '0.3.5-2',
+477 silly pickManifestFromRegistryMetadata   '0.3.5-3',
+477 silly pickManifestFromRegistryMetadata   '0.3.5-4',
+477 silly pickManifestFromRegistryMetadata   '0.3.6',
+477 silly pickManifestFromRegistryMetadata   '0.3.7',
+477 silly pickManifestFromRegistryMetadata   '0.3.8',
+477 silly pickManifestFromRegistryMetadata   '0.3.9',
+477 silly pickManifestFromRegistryMetadata   '0.4.0',
+477 silly pickManifestFromRegistryMetadata   '0.4.1',
+477 silly pickManifestFromRegistryMetadata   '0.4.2',
+477 silly pickManifestFromRegistryMetadata   '0.4.3',
+477 silly pickManifestFromRegistryMetadata   '0.4.5',
+477 silly pickManifestFromRegistryMetadata   '0.4.6',
+477 silly pickManifestFromRegistryMetadata   '0.4.7',
+477 silly pickManifestFromRegistryMetadata   '0.4.8',
+477 silly pickManifestFromRegistryMetadata   '0.4.9',
+477 silly pickManifestFromRegistryMetadata   '0.4.10',
+477 silly pickManifestFromRegistryMetadata   '0.4.11',
+477 silly pickManifestFromRegistryMetadata   '0.4.12',
+477 silly pickManifestFromRegistryMetadata   '0.4.13',
+477 silly pickManifestFromRegistryMetadata   '0.4.14',
+477 silly pickManifestFromRegistryMetadata   '0.4.15',
+477 silly pickManifestFromRegistryMetadata   '0.4.16',
+477 silly pickManifestFromRegistryMetadata   '0.4.17',
+477 silly pickManifestFromRegistryMetadata   '0.4.18',
+477 silly pickManifestFromRegistryMetadata   '0.4.19',
+477 silly pickManifestFromRegistryMetadata   '0.4.20',
+477 silly pickManifestFromRegistryMetadata   '0.4.21',
+477 silly pickManifestFromRegistryMetadata   '0.4.22',
+477 silly pickManifestFromRegistryMetadata   '0.4.23',
+477 silly pickManifestFromRegistryMetadata   '0.4.24',
+477 silly pickManifestFromRegistryMetadata   '0.4.25',
+477 silly pickManifestFromRegistryMetadata   '0.4.27',
+477 silly pickManifestFromRegistryMetadata   '0.4.28',
+477 silly pickManifestFromRegistryMetadata   '0.4.29',
+477 silly pickManifestFromRegistryMetadata   '0.4.30',
+477 silly pickManifestFromRegistryMetadata   '0.4.31',
+477 silly pickManifestFromRegistryMetadata   '0.4.32',
+477 silly pickManifestFromRegistryMetadata   '0.5.0',
+477 silly pickManifestFromRegistryMetadata   '0.6.0',
+477 silly pickManifestFromRegistryMetadata   '0.6.1',
+477 silly pickManifestFromRegistryMetadata   '0.6.2',
+477 silly pickManifestFromRegistryMetadata   '0.6.3',
+477 silly pickManifestFromRegistryMetadata   '0.6.4',
+477 silly pickManifestFromRegistryMetadata   '0.6.5',
+477 silly pickManifestFromRegistryMetadata   '0.7.0',
+477 silly pickManifestFromRegistryMetadata   '0.7.1',
+477 silly pickManifestFromRegistryMetadata   '0.7.2',
+477 silly pickManifestFromRegistryMetadata   '0.8.0',
+477 silly pickManifestFromRegistryMetadata   '0.8.1',
+477 silly pickManifestFromRegistryMetadata   '1.0.0',
+477 silly pickManifestFromRegistryMetadata   '1.0.1',
+477 silly pickManifestFromRegistryMetadata   '1.1.0',
+477 silly pickManifestFromRegistryMetadata   '1.1.1',
+477 silly pickManifestFromRegistryMetadata   '2.0.0-beta.0',
+477 silly pickManifestFromRegistryMetadata   '2.0.0-beta.1',
+477 silly pickManifestFromRegistryMetadata   '2.0.0-beta.2',
+477 silly pickManifestFromRegistryMetadata   '2.0.0',
+477 silly pickManifestFromRegistryMetadata   '2.0.1',
+477 silly pickManifestFromRegistryMetadata   '2.0.2',
+477 silly pickManifestFromRegistryMetadata   '2.0.3',
+477 silly pickManifestFromRegistryMetadata   '1.1.2',
+477 silly pickManifestFromRegistryMetadata   '2.1.0',
+477 silly pickManifestFromRegistryMetadata   '2.2.0',
+477 silly pickManifestFromRegistryMetadata   '1.1.3',
+477 silly pickManifestFromRegistryMetadata   '1.1.4',
+477 silly pickManifestFromRegistryMetadata   '2.2.1',
+477 silly pickManifestFromRegistryMetadata   '2.2.2',
+477 silly pickManifestFromRegistryMetadata   '2.2.3',
+477 silly pickManifestFromRegistryMetadata   '2.3.0',
+477 silly pickManifestFromRegistryMetadata   '2.3.1',
+477 silly pickManifestFromRegistryMetadata   '3.0.0' ]
+478 silly addNamed ws@2.3.1
+479 verbose addNamed "2.3.1" is a plain semver version for ws
+480 silly pickManifestFromRegistryMetadata spec >=2.1.0 <2.2.0 tag latest versions [ '0.1.0',
+480 silly pickManifestFromRegistryMetadata   '0.1.1',
+480 silly pickManifestFromRegistryMetadata   '0.2.0',
+480 silly pickManifestFromRegistryMetadata   '0.2.1',
+480 silly pickManifestFromRegistryMetadata   '0.3.0',
+480 silly pickManifestFromRegistryMetadata   '1.0.0',
+480 silly pickManifestFromRegistryMetadata   '1.0.1',
+480 silly pickManifestFromRegistryMetadata   '1.0.2',
+480 silly pickManifestFromRegistryMetadata   '1.0.3',
+480 silly pickManifestFromRegistryMetadata   '1.0.4',
+480 silly pickManifestFromRegistryMetadata   '1.0.5',
+480 silly pickManifestFromRegistryMetadata   '1.0.6',
+480 silly pickManifestFromRegistryMetadata   '1.0.7',
+480 silly pickManifestFromRegistryMetadata   '1.0.8',
+480 silly pickManifestFromRegistryMetadata   '1.1.0',
+480 silly pickManifestFromRegistryMetadata   '1.2.0',
+480 silly pickManifestFromRegistryMetadata   '1.2.1',
+480 silly pickManifestFromRegistryMetadata   '1.2.2',
+480 silly pickManifestFromRegistryMetadata   '1.2.3',
+480 silly pickManifestFromRegistryMetadata   '1.2.4',
+480 silly pickManifestFromRegistryMetadata   '1.3.0',
+480 silly pickManifestFromRegistryMetadata   '1.3.1',
+480 silly pickManifestFromRegistryMetadata   '1.3.2',
+480 silly pickManifestFromRegistryMetadata   '2.0.0',
+480 silly pickManifestFromRegistryMetadata   '2.0.1',
+480 silly pickManifestFromRegistryMetadata   '2.0.2',
+480 silly pickManifestFromRegistryMetadata   '2.0.3',
+480 silly pickManifestFromRegistryMetadata   '2.1.0',
+480 silly pickManifestFromRegistryMetadata   '2.1.1' ]
+481 silly resolveWithNewModule engine.io-parser@2.1.1 checking installable status
+482 silly cache add args [ 'engine.io-parser@~2.1.0', null ]
+483 verbose cache add spec engine.io-parser@~2.1.0
+484 silly cache add parsed spec Result {
+484 silly cache add   raw: 'engine.io-parser@~2.1.0',
+484 silly cache add   scope: null,
+484 silly cache add   escapedName: 'engine.io-parser',
+484 silly cache add   name: 'engine.io-parser',
+484 silly cache add   rawSpec: '~2.1.0',
+484 silly cache add   spec: '>=2.1.0 <2.2.0',
+484 silly cache add   type: 'range' }
+485 silly addNamed engine.io-parser@>=2.1.0 <2.2.0
+486 verbose addNamed ">=2.1.0 <2.2.0" is a valid semver range for engine.io-parser
+487 silly addNameRange { name: 'engine.io-parser',
+487 silly addNameRange   range: '>=2.1.0 <2.2.0',
+487 silly addNameRange   hasData: false }
+488 silly mapToRegistry name engine.io-parser
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry data Result {
+491 silly mapToRegistry   raw: 'engine.io-parser',
+491 silly mapToRegistry   scope: null,
+491 silly mapToRegistry   escapedName: 'engine.io-parser',
+491 silly mapToRegistry   name: 'engine.io-parser',
+491 silly mapToRegistry   rawSpec: '',
+491 silly mapToRegistry   spec: 'latest',
+491 silly mapToRegistry   type: 'tag' }
+492 silly mapToRegistry uri https://registry.npmjs.org/engine.io-parser
+493 verbose addNameRange registry:https://registry.npmjs.org/engine.io-parser not in flight; fetching
+494 silly cache afterAdd ws@2.3.1
+495 verbose afterAdd /home/server_web/.npm/ws/2.3.1/package/package.json not in flight; writing
+496 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+497 verbose get https://registry.npmjs.org/engine.io-parser not expired, no request
+498 silly addNameRange number 2 { name: 'engine.io-parser',
+498 silly addNameRange   range: '>=2.1.0 <2.2.0',
+498 silly addNameRange   hasData: true }
+499 silly addNameRange versions [ 'engine.io-parser',
+499 silly addNameRange   [ '0.1.0',
+499 silly addNameRange     '0.1.1',
+499 silly addNameRange     '0.2.0',
+499 silly addNameRange     '0.2.1',
+499 silly addNameRange     '0.3.0',
+499 silly addNameRange     '1.0.0',
+499 silly addNameRange     '1.0.1',
+499 silly addNameRange     '1.0.2',
+499 silly addNameRange     '1.0.3',
+499 silly addNameRange     '1.0.4',
+499 silly addNameRange     '1.0.5',
+499 silly addNameRange     '1.0.6',
+499 silly addNameRange     '1.0.7',
+499 silly addNameRange     '1.0.8',
+499 silly addNameRange     '1.1.0',
+499 silly addNameRange     '1.2.0',
+499 silly addNameRange     '1.2.1',
+499 silly addNameRange     '1.2.2',
+499 silly addNameRange     '1.2.3',
+499 silly addNameRange     '1.2.4',
+499 silly addNameRange     '1.3.0',
+499 silly addNameRange     '1.3.1',
+499 silly addNameRange     '1.3.2',
+499 silly addNameRange     '2.0.0',
+499 silly addNameRange     '2.0.1',
+499 silly addNameRange     '2.0.2',
+499 silly addNameRange     '2.0.3',
+499 silly addNameRange     '2.1.0',
+499 silly addNameRange     '2.1.1' ] ]
+500 silly pickManifestFromRegistryMetadata spec >=2.1.0 <2.2.0 tag latest versions [ '0.1.0',
+500 silly pickManifestFromRegistryMetadata   '0.1.1',
+500 silly pickManifestFromRegistryMetadata   '0.2.0',
+500 silly pickManifestFromRegistryMetadata   '0.2.1',
+500 silly pickManifestFromRegistryMetadata   '0.3.0',
+500 silly pickManifestFromRegistryMetadata   '1.0.0',
+500 silly pickManifestFromRegistryMetadata   '1.0.1',
+500 silly pickManifestFromRegistryMetadata   '1.0.2',
+500 silly pickManifestFromRegistryMetadata   '1.0.3',
+500 silly pickManifestFromRegistryMetadata   '1.0.4',
+500 silly pickManifestFromRegistryMetadata   '1.0.5',
+500 silly pickManifestFromRegistryMetadata   '1.0.6',
+500 silly pickManifestFromRegistryMetadata   '1.0.7',
+500 silly pickManifestFromRegistryMetadata   '1.0.8',
+500 silly pickManifestFromRegistryMetadata   '1.1.0',
+500 silly pickManifestFromRegistryMetadata   '1.2.0',
+500 silly pickManifestFromRegistryMetadata   '1.2.1',
+500 silly pickManifestFromRegistryMetadata   '1.2.2',
+500 silly pickManifestFromRegistryMetadata   '1.2.3',
+500 silly pickManifestFromRegistryMetadata   '1.2.4',
+500 silly pickManifestFromRegistryMetadata   '1.3.0',
+500 silly pickManifestFromRegistryMetadata   '1.3.1',
+500 silly pickManifestFromRegistryMetadata   '1.3.2',
+500 silly pickManifestFromRegistryMetadata   '2.0.0',
+500 silly pickManifestFromRegistryMetadata   '2.0.1',
+500 silly pickManifestFromRegistryMetadata   '2.0.2',
+500 silly pickManifestFromRegistryMetadata   '2.0.3',
+500 silly pickManifestFromRegistryMetadata   '2.1.0',
+500 silly pickManifestFromRegistryMetadata   '2.1.1' ]
+501 silly addNamed engine.io-parser@latest
+502 verbose addNamed "latest" is being treated as a dist-tag for engine.io-parser
+503 info addNameTag [ 'engine.io-parser', 'latest' ]
+504 silly mapToRegistry name engine.io-parser
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry https://registry.npmjs.org/
+507 silly mapToRegistry data Result {
+507 silly mapToRegistry   raw: 'engine.io-parser',
+507 silly mapToRegistry   scope: null,
+507 silly mapToRegistry   escapedName: 'engine.io-parser',
+507 silly mapToRegistry   name: 'engine.io-parser',
+507 silly mapToRegistry   rawSpec: '',
+507 silly mapToRegistry   spec: 'latest',
+507 silly mapToRegistry   type: 'tag' }
+508 silly mapToRegistry uri https://registry.npmjs.org/engine.io-parser
+509 verbose addNameTag registry:https://registry.npmjs.org/engine.io-parser already in flight; waiting
+510 silly addNameTag next cb for engine.io-parser with tag latest
+511 silly addNamed engine.io-parser@2.1.1
+512 verbose addNamed "2.1.1" is a plain semver version for engine.io-parser
+513 silly cache afterAdd engine.io-parser@2.1.1
+514 verbose afterAdd /home/server_web/.npm/engine.io-parser/2.1.1/package/package.json not in flight; writing
+515 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+516 verbose afterAdd /home/server_web/.npm/ws/2.3.1/package/package.json written
+517 verbose afterAdd /home/server_web/.npm/engine.io-parser/2.1.1/package/package.json written
+518 http 304 https://registry.npmjs.org/uws
+519 verbose headers { date: 'Thu, 25 May 2017 09:02:56 GMT',
+519 verbose headers   via: '1.1 varnish',
+519 verbose headers   'cache-control': 'max-age=300',
+519 verbose headers   etag: 'W/"59129d40-255a"',
+519 verbose headers   age: '0',
+519 verbose headers   connection: 'keep-alive',
+519 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+519 verbose headers   'x-cache': 'HIT',
+519 verbose headers   'x-cache-hits': '1',
+519 verbose headers   'x-timer': 'S1495702976.014814,VS0,VE182',
+519 verbose headers   vary: 'Accept-Encoding' }
+520 silly get cb [ 304,
+520 silly get   { date: 'Thu, 25 May 2017 09:02:56 GMT',
+520 silly get     via: '1.1 varnish',
+520 silly get     'cache-control': 'max-age=300',
+520 silly get     etag: 'W/"59129d40-255a"',
+520 silly get     age: '0',
+520 silly get     connection: 'keep-alive',
+520 silly get     'x-served-by': 'cache-hkg6825-HKG',
+520 silly get     'x-cache': 'HIT',
+520 silly get     'x-cache-hits': '1',
+520 silly get     'x-timer': 'S1495702976.014814,VS0,VE182',
+520 silly get     vary: 'Accept-Encoding' } ]
+521 verbose etag https://registry.npmjs.org/uws from cache
+522 verbose get saving uws to /home/server_web/.npm/registry.npmjs.org/uws/.cache.json
+523 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+524 silly pickManifestFromRegistryMetadata spec >=0.14.4 <0.15.0 tag latest versions [ '0.14.1', '0.14.3', '0.14.4', '0.14.5' ]
+525 silly resolveWithNewModule uws@0.14.5 checking installable status
+526 silly cache add args [ 'uws@~0.14.4', null ]
+527 verbose cache add spec uws@~0.14.4
+528 silly cache add parsed spec Result {
+528 silly cache add   raw: 'uws@~0.14.4',
+528 silly cache add   scope: null,
+528 silly cache add   escapedName: 'uws',
+528 silly cache add   name: 'uws',
+528 silly cache add   rawSpec: '~0.14.4',
+528 silly cache add   spec: '>=0.14.4 <0.15.0',
+528 silly cache add   type: 'range' }
+529 silly addNamed uws@>=0.14.4 <0.15.0
+530 verbose addNamed ">=0.14.4 <0.15.0" is a valid semver range for uws
+531 silly addNameRange { name: 'uws', range: '>=0.14.4 <0.15.0', hasData: false }
+532 silly mapToRegistry name uws
+533 silly mapToRegistry using default registry
+534 silly mapToRegistry registry https://registry.npmjs.org/
+535 silly mapToRegistry data Result {
+535 silly mapToRegistry   raw: 'uws',
+535 silly mapToRegistry   scope: null,
+535 silly mapToRegistry   escapedName: 'uws',
+535 silly mapToRegistry   name: 'uws',
+535 silly mapToRegistry   rawSpec: '',
+535 silly mapToRegistry   spec: 'latest',
+535 silly mapToRegistry   type: 'tag' }
+536 silly mapToRegistry uri https://registry.npmjs.org/uws
+537 verbose addNameRange registry:https://registry.npmjs.org/uws not in flight; fetching
+538 verbose get https://registry.npmjs.org/uws not expired, no request
+539 silly addNameRange number 2 { name: 'uws', range: '>=0.14.4 <0.15.0', hasData: true }
+540 silly addNameRange versions [ 'uws', [ '0.14.1', '0.14.3', '0.14.4', '0.14.5' ] ]
+541 silly pickManifestFromRegistryMetadata spec >=0.14.4 <0.15.0 tag latest versions [ '0.14.1', '0.14.3', '0.14.4', '0.14.5' ]
+542 silly addNamed uws@latest
+543 verbose addNamed "latest" is being treated as a dist-tag for uws
+544 info addNameTag [ 'uws', 'latest' ]
+545 silly mapToRegistry name uws
+546 silly mapToRegistry using default registry
+547 silly mapToRegistry registry https://registry.npmjs.org/
+548 silly mapToRegistry data Result {
+548 silly mapToRegistry   raw: 'uws',
+548 silly mapToRegistry   scope: null,
+548 silly mapToRegistry   escapedName: 'uws',
+548 silly mapToRegistry   name: 'uws',
+548 silly mapToRegistry   rawSpec: '',
+548 silly mapToRegistry   spec: 'latest',
+548 silly mapToRegistry   type: 'tag' }
+549 silly mapToRegistry uri https://registry.npmjs.org/uws
+550 verbose addNameTag registry:https://registry.npmjs.org/uws already in flight; waiting
+551 silly addNameTag next cb for uws with tag latest
+552 silly addNamed uws@0.14.5
+553 verbose addNamed "0.14.5" is a plain semver version for uws
+554 silly mapToRegistry name uws
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry https://registry.npmjs.org/
+557 silly mapToRegistry data Result {
+557 silly mapToRegistry   raw: 'uws',
+557 silly mapToRegistry   scope: null,
+557 silly mapToRegistry   escapedName: 'uws',
+557 silly mapToRegistry   name: 'uws',
+557 silly mapToRegistry   rawSpec: '',
+557 silly mapToRegistry   spec: 'latest',
+557 silly mapToRegistry   type: 'tag' }
+558 silly mapToRegistry uri https://registry.npmjs.org/uws
+559 verbose addRemoteTarball https://registry.npmjs.org/uws/-/uws-0.14.5.tgz not in flight; adding
+560 verbose addRemoteTarball [ 'https://registry.npmjs.org/uws/-/uws-0.14.5.tgz',
+560 verbose addRemoteTarball   '67aaf33c46b2a587a5f6666d00f7691328f149dc' ]
+561 info retry fetch attempt 1 at 5:02:55 PM
+562 info attempt registry request try #1 at 5:02:55 PM
+563 http fetch GET https://registry.npmjs.org/uws/-/uws-0.14.5.tgz
+564 http fetch 200 https://registry.npmjs.org/uws/-/uws-0.14.5.tgz
+565 http 304 https://registry.npmjs.org/base64id
+566 verbose headers { date: 'Thu, 25 May 2017 09:02:56 GMT',
+566 verbose headers   via: '1.1 varnish',
+566 verbose headers   'cache-control': 'max-age=300',
+566 verbose headers   etag: 'W/"58824d0b-c81"',
+566 verbose headers   age: '256',
+566 verbose headers   connection: 'keep-alive',
+566 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+566 verbose headers   'x-cache': 'HIT',
+566 verbose headers   'x-cache-hits': '3',
+566 verbose headers   'x-timer': 'S1495702976.010734,VS0,VE0',
+566 verbose headers   vary: 'Accept-Encoding' }
+567 silly get cb [ 304,
+567 silly get   { date: 'Thu, 25 May 2017 09:02:56 GMT',
+567 silly get     via: '1.1 varnish',
+567 silly get     'cache-control': 'max-age=300',
+567 silly get     etag: 'W/"58824d0b-c81"',
+567 silly get     age: '256',
+567 silly get     connection: 'keep-alive',
+567 silly get     'x-served-by': 'cache-hkg6821-HKG',
+567 silly get     'x-cache': 'HIT',
+567 silly get     'x-cache-hits': '3',
+567 silly get     'x-timer': 'S1495702976.010734,VS0,VE0',
+567 silly get     vary: 'Accept-Encoding' } ]
+568 verbose etag https://registry.npmjs.org/base64id from cache
+569 verbose get saving base64id to /home/server_web/.npm/registry.npmjs.org/base64id/.cache.json
+570 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+571 silly pickManifestFromRegistryMetadata spec 1.0.0 tag latest versions [ '0.1.0', '1.0.0' ]
+572 silly resolveWithNewModule base64id@1.0.0 checking installable status
+573 silly cache add args [ 'base64id@1.0.0', null ]
+574 verbose cache add spec base64id@1.0.0
+575 silly cache add parsed spec Result {
+575 silly cache add   raw: 'base64id@1.0.0',
+575 silly cache add   scope: null,
+575 silly cache add   escapedName: 'base64id',
+575 silly cache add   name: 'base64id',
+575 silly cache add   rawSpec: '1.0.0',
+575 silly cache add   spec: '1.0.0',
+575 silly cache add   type: 'version' }
+576 silly addNamed base64id@1.0.0
+577 verbose addNamed "1.0.0" is a plain semver version for base64id
+578 silly mapToRegistry name base64id
+579 silly mapToRegistry using default registry
+580 silly mapToRegistry registry https://registry.npmjs.org/
+581 silly mapToRegistry data Result {
+581 silly mapToRegistry   raw: 'base64id',
+581 silly mapToRegistry   scope: null,
+581 silly mapToRegistry   escapedName: 'base64id',
+581 silly mapToRegistry   name: 'base64id',
+581 silly mapToRegistry   rawSpec: '',
+581 silly mapToRegistry   spec: 'latest',
+581 silly mapToRegistry   type: 'tag' }
+582 silly mapToRegistry uri https://registry.npmjs.org/base64id
+583 verbose addNameVersion registry:https://registry.npmjs.org/base64id not in flight; fetching
+584 verbose get https://registry.npmjs.org/base64id not expired, no request
+585 silly cache afterAdd base64id@1.0.0
+586 verbose afterAdd /home/server_web/.npm/base64id/1.0.0/package/package.json not in flight; writing
+587 verbose correctMkdir /home/server_web/.npm correctMkdir not in flight; initializing
+588 verbose afterAdd /home/server_web/.npm/base64id/1.0.0/package/package.json written
+589 verbose stack Error: read ECONNRESET
+589 verbose stack     at exports._errnoException (util.js:1034:11)
+589 verbose stack     at TLSWrap.onread (net.js:584:26)
+590 verbose cwd /home/server_web/project/_20170525_socketIOTest_js/chatRoom/chatTest
+591 error Linux 3.16.0-4-amd64
+592 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "socket.io"
+593 error node v7.7.4
+594 error npm  v4.1.2
+595 error code ECONNRESET
+596 error errno ECONNRESET
+597 error syscall read
+598 error network read ECONNRESET
+599 error network This is most likely not a problem with npm itself
+599 error network and is related to network connectivity.
+599 error network In most cases you are behind a proxy or have bad network settings.
+599 error network
+599 error network If you are behind a proxy, please make sure that the
+599 error network 'proxy' config is set properly.  See: 'npm help config'
+600 verbose exit [ 1, true ]
